@@ -51,7 +51,7 @@ The guides are based on excellent textbooks that provide additional details and 
 - [Wikipedia](https://en.wikipedia.org/wiki/Law_of_total_variance), and other lectures borrowed/stolen from various sources
 
 Also check out the excellent short guides by Kurt Schmidheiny that complement these short guides and include much more on how to apply models and how to interpret results.
-- [Shortguides by Kurt Schmitheiny](https://www.schmidheiny.name/teaching/shortguides.htm)
+- [Shortguides by Kurt Schmidheiny](https://www.schmidheiny.name/teaching/shortguides.htm)
 
 ## Contact:
 [Davud Rostam-Afschar](https://rostam-afschar.de)<br />

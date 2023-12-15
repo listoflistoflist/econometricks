@@ -1,0 +1,4 @@
+\babel@toc {english}{}
+\beamer@sectionintoc {1}{Frisch-Waugh-Lovell theorem in equation algebra}{3}{0}{1}
+\beamer@sectionintoc {2}{Projection and residual maker matrices}{10}{0}{2}
+\beamer@sectionintoc {3}{Frisch-Waugh-Lovell theorem in matrix algebra}{16}{0}{3}

@@ -1,0 +1,10 @@
+\babel@toc {english}{}
+\beamer@sectionintoc {1}{Joint and marginal bivariate distributions}{3}{0}{1}
+\beamer@sectionintoc {2}{The joint density function}{7}{0}{2}
+\beamer@sectionintoc {3}{The joint cumulative density function}{10}{0}{3}
+\beamer@sectionintoc {4}{The marginal probability density}{12}{0}{4}
+\beamer@sectionintoc {5}{Covariance and correlation}{15}{0}{5}
+\beamer@sectionintoc {6}{The conditional density function}{17}{0}{6}
+\beamer@sectionintoc {7}{Conditional mean aka regression}{18}{0}{7}
+\beamer@sectionintoc {8}{The bivariate normal}{23}{0}{8}
+\beamer@sectionintoc {9}{Useful rules}{25}{0}{9}

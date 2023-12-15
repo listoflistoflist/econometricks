@@ -1,0 +1,63 @@
+\ifx\undefined\BySame
+\newcommand{\BySame}{\leavevmode\rule[.5ex]{3em}{.5pt}\ }
+\fi
+\ifx\undefined\textsc
+\newcommand{\textsc}[1]{{\sc #1}}
+\newcommand{\emph}[1]{{\em #1\/}}
+\let\tmpsmall\small
+\renewcommand{\small}{\tmpsmall\sc}
+\fi
+\begin{thebibliography}{}
+
+\harvarditem[Angrist and Pischke]{Angrist and Pischke}{2009}{Angrist2009}
+\textsc{Angrist, J.~D.,  {\small and} J.-S. Pischke}  (2009): \emph{Mostly
+  Harmless Econometrics: An Empiricist's Companion}. Princeton University
+  Press, Chapter 3.
+
+\harvarditem[Cameron and Trivedi]{Cameron and Trivedi}{2005}{Cameron2005}
+\textsc{Cameron, A.~C.,  {\small and} P.~K. Trivedi}  (2005):
+  \emph{Microeconometrics: Methods and Applications}. Cambridge University
+  Press, 3 edn., Section 4.1--4.5, 4.8--4.9.
+
+\harvarditem[Greene]{Greene}{2012}{Greene2012}
+\textsc{Greene, W.~H.}  (2012): \emph{Econometric Analysis}. Prentice Hall, 5
+  edn.
+
+\harvarditem[Hill, Griffiths, and Lim]{Hill, Griffiths, and
+  Lim}{2010}{Hill2010}
+\textsc{Hill, R.~C., W.~E. Griffiths,  {\small and} G.~C. Lim}  (2010):
+  \emph{Principles of Econometrics}. John Wiley \& Sons, 4 edn., Chapters 1--6,
+  8, 10.3.
+
+\harvarditem[Kennedy]{Kennedy}{2008}{Kennedy2008}
+\textsc{Kennedy, P.}  (2008): \emph{A Guide to Econometrics}. Blackwell
+  Publishing, 6 edn., Chapter 3--11, 14, in particular 7, 8.1--8.3.
+
+\harvarditem[Plackett]{Plackett}{1972}{Plackett1972}
+\textsc{Plackett, R.~L.}  (1972): ``Studies in the History of Probability and
+  Statistics. XXIX: The discovery of the method of least squares,''
+  \emph{Biometrika}, 59(2), 239--251.
+
+\harvarditem[Rostam-Afschar and Jessen]{Rostam-Afschar and
+  Jessen}{2014}{Rostam2014}
+\textsc{Rostam-Afschar, D.,  {\small and} R.~Jessen}  (2014): ``{GRAPH3D: Stata
+  module to draw colored, scalable, rotatable 3D plots},'' Statistical Software
+  Components, Boston College Department of Economics.
+
+\harvarditem[Stock and Watson]{Stock and Watson}{2012}{Stock2012}
+\textsc{Stock, J.~H.,  {\small and} M.~W. Watson}  (2012): \emph{Introduction
+  to Econometrics}. Pearson Addison-Wesley, 3 edn., Chapters 4--9, 12.
+
+\harvarditem[Verbeek]{Verbeek}{2012}{Verbeek2012}
+\textsc{Verbeek, M.}  (2012): \emph{A Guide to Modern Econometrics}. John Wiley
+  \& Sons, 3 edn., Chapter 2--5.
+
+\harvarditem[Wooldridge]{Wooldridge}{2002}{Wooldridge2002}
+\textsc{Wooldridge, J.~M.}  (2002): \emph{Econometric Analysis of Cross Section
+  and Panel Data}. MIT Press, Sections 4.1--4.23 and 6.24, Chapter 5.
+
+\harvarditem[Wooldridge]{Wooldridge}{2009}{Wooldridge2009}
+\textsc{\BySame{}}  (2009): \emph{Introductory Econometrics: A Modern
+  Approach}. Cengage Learning, 4 edn., Chapters 1--8, 15.
+
+\end{thebibliography}

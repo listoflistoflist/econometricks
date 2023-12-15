@@ -1,0 +1,25 @@
+\ifx\undefined\BySame
+\newcommand{\BySame}{\leavevmode\rule[.5ex]{3em}{.5pt}\ }
+\fi
+\ifx\undefined\textsc
+\newcommand{\textsc}[1]{{\sc #1}}
+\newcommand{\emph}[1]{{\em #1\/}}
+\let\tmpsmall\small
+\renewcommand{\small}{\tmpsmall\sc}
+\fi
+\begin{thebibliography}{}
+
+\harvarditem[Greene]{Greene}{2011}{Greene2012}
+\textsc{Greene, W.~H.}  (2011): \emph{Econometric Analysis}. Prentice Hall, 5
+  edn.
+
+\harvarditem[Hansen]{Hansen}{1982}{10.2307/1912775}
+\textsc{Hansen, L.~P.}  (1982): ``Large Sample Properties of Generalized Method
+  of Moments Estimators,'' \emph{Econometrica}, 50(4), 1029--1054.
+
+\harvarditem[Hansen]{Hansen}{2012}{HANSEN2012325}
+\textsc{\BySame{}}  (2012): ``Proofs for large sample properties of generalized
+  method of moments estimators,'' \emph{Journal of Econometrics}, 170(2),
+  325--330, Thirtieth Anniversary of Generalized Method of Moments.
+
+\end{thebibliography}

@@ -1,0 +1,30 @@
+\ifx\undefined\BySame
+\newcommand{\BySame}{\leavevmode\rule[.5ex]{3em}{.5pt}\ }
+\fi
+\ifx\undefined\textsc
+\newcommand{\textsc}[1]{{\sc #1}}
+\newcommand{\emph}[1]{{\em #1\/}}
+\let\tmpsmall\small
+\renewcommand{\small}{\tmpsmall\sc}
+\fi
+\begin{thebibliography}{}
+
+\harvarditem[Angrist and Pischke]{Angrist and Pischke}{2009}{Angrist2009}
+\textsc{Angrist, J.~D.,  {\small and} J.-S. Pischke}  (2009): \emph{Mostly
+  Harmless Econometrics: An Empiricist's Companion}. Princeton University
+  Press, Chapter 3.
+
+\harvarditem[Filoso]{Filoso}{2013}{Filoso2013}
+\textsc{Filoso, V.}  (2013): ``Regression Anatomy, Revealed,'' \emph{The Stata
+  Journal}, 13(1), 92--106.
+
+\harvarditem[Frisch and Waugh]{Frisch and Waugh}{1933}{Frisch1933}
+\textsc{Frisch, R.,  {\small and} F.~V. Waugh}  (1933): ``Partial Time
+  Regressions as Compared with Individual Trends,'' \emph{Econometrica}, 1(4),
+  387--401.
+
+\harvarditem[Lovell]{Lovell}{2008}{Lovell2008}
+\textsc{Lovell, M.~C.}  (2008): ``A Simple Proof of the FWL Theorem,''
+  \emph{The Journal of Economic Education}, 39(1), 88--91.
+
+\end{thebibliography}

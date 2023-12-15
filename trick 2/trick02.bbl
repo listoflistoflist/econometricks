@@ -1,0 +1,16 @@
+\ifx\undefined\BySame
+\newcommand{\BySame}{\leavevmode\rule[.5ex]{3em}{.5pt}\ }
+\fi
+\ifx\undefined\textsc
+\newcommand{\textsc}[1]{{\sc #1}}
+\newcommand{\emph}[1]{{\em #1\/}}
+\let\tmpsmall\small
+\renewcommand{\small}{\tmpsmall\sc}
+\fi
+\begin{thebibliography}{}
+
+\harvarditem[Greene]{Greene}{2003}{Greene2012}
+\textsc{Greene, W.~H.}  (2003): \emph{Econometric Analysis}. Prentice Hall, 5
+  edn.
+
+\end{thebibliography}

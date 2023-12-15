@@ -1,0 +1,11 @@
+\babel@toc {english}{}
+\beamer@sectionintoc {1}{The normal distribution}{7}{0}{1}
+\beamer@sectionintoc {2}{Method of transformations}{8}{0}{2}
+\beamer@sectionintoc {3}{The $\chi ^2$ distribution}{13}{0}{3}
+\beamer@sectionintoc {4}{The F-distribution}{14}{0}{4}
+\beamer@sectionintoc {5}{The student t-distribution}{15}{0}{5}
+\beamer@sectionintoc {6}{The lognormal distribution}{18}{0}{6}
+\beamer@sectionintoc {7}{The gamma distribution}{19}{0}{7}
+\beamer@sectionintoc {8}{The beta distribution}{20}{0}{8}
+\beamer@sectionintoc {9}{The logistic distribution}{21}{0}{9}
+\beamer@sectionintoc {10}{The Wishart distribution}{22}{0}{10}

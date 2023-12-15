@@ -1,0 +1,539 @@
+\documentclass[11pt]{beamer}
+%\documentclass[11pt,handout]{beamer}
+%\documentclass[9pt,handout]{beamer}
+\mode<presentation>
+%\mode<article> 
+%{
+%\usepackage{beamerbasearticle}
+%\usepackage{fullpage}
+%\usepackage{hyperref}
+%}
+\usepackage{etex}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+%\usepackage[utf-8]{inputenc}    % to make utf-8 input possible
+\usepackage[english]{babel}     % hyphenation etc., alternatively use 'german' as parameter
+\usepackage{tabularx}   % Erweiterte Tabellen Optionen
+\usepackage{booktabs}
+\usepackage{mathrsfs} 
+\usepackage{multicol}
+\usepackage{bm}
+\usepackage{subcaption}
+\usepackage{wrapfig}
+\usepackage{hyperref}
+\hypersetup{
+    bookmarks=false,         % show bookmarks bar?
+    unicode=false,          % non-Latin characters in Acrobat’s bookmarks
+    pdftoolbar=false,        % show Acrobat’s toolbar?
+%    pdfmenubar=false,        % show Acrobat’s menu?
+    pdffitwindow=true,     % window fit to page when opened
+    %pdfstartview={FitH},    % fits the width of the page to the window
+%    pdfpagemode={FullScreen},
+    pdftitle={Advanced to Econometrics},    % title
+    pdfauthor={Davud Rostam-Afschar},     % author
+    pdfsubject={lecture notes},   % subject of the document
+    pdfcreator={Davud Rostam-Afschar},   % creator of the document
+    pdfproducer={Davud Rostam-Afschar}, % producer of the document
+    pdfkeywords={microeconometrics}, % list of keywords
+    pdfnewwindow=true,      % links in new window
+%    colorlinks=false,       % false: boxed links; true: colored links
+%    linkcolor=red,          % color of internal links
+%    citecolor=green,        % color of links to bibliography
+%    filecolor=magenta,      % color of file links
+%    urlcolor=cyan,           % color of external links
+%    pdfstartpage{1}
+}
+\usepackage{wrapfig}
+\usepackage{dcolumn}
+\usepackage{threeparttable}
+\usepackage{booktabs}
+\usepackage{bbm}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{rotating}
+\usepackage{multirow}
+\usepackage[%
+	%round,	%(default) for round parentheses;
+	%square,	% for square brackets;
+	%curly,	% for curly braces;
+	%angle,	% for angle brackets;
+	%colon,	% (default) to separate multiple citations with colons;
+	%comma,	% to use commas as separaters;
+	authoryear,% (default) for author-year citations;
+	%numbers,	% for numerical citations;
+	%super,	% for superscripted numerical citations, as in Nature;
+	%sort,		% orders multiple citations into the sequence in which they appear in the list of references;
+	%sort&compress,    % as sort but in addition multiple numerical citations
+                   % are compressed if possible (as 3-6, 15);
+	%longnamesfirst,  % makes the first citation of any reference the equivalent of
+                   % the starred variant (full author list) and subsequent citations
+                   %normal (abbreviated list);
+	%sectionbib,      % redefines \thebibliography to issue \section* instead of \chapter*;
+                   % valid only for classes with a \chapter command;
+                   % to be used with the chapterbib package;
+	%nonamebreak,     % keeps all the authors names in a citation on one line;
+                   %causes overfull hboxes but helps with some hyperref problems.
+]{natbib}
+
+
+\usepackage{tikz} 
+\usetikzlibrary{arrows,decorations.pathmorphing,backgrounds,fit,positioning,shapes.symbols,chains}
+\setbeamertemplate{section in toc}[sections numbered]
+\setbeamertemplate{caption}[numbered]
+%%%<
+\usepackage{verbatim}
+%\usepackage[active,tightpage,floats]{preview}
+%\setlength\PreviewBorder{5pt}%
+%%%>
+
+\bibliographystyle{Econometrica}
+
+
+
+\include{fu-beamer-template}  % THIS is the line that includes the FU template!
+
+%\usepackage{arev,t1enc} % looks nicer than the standard sans-serif font
+% if you experience problems, comment out the line above and change
+% the documentclass option "9pt" to "10pt"
+\usepackage{concmath}
+%-------------------------------------------
+\usepackage{xcolor}
+\definecolor{olive}{rgb}{0.3, 0.4, .1}
+\definecolor{fore}{RGB}{249,242,215}
+\definecolor{back}{RGB}{51,51,51}
+\definecolor{lightblue}{rgb}{0.8,0.85,1}
+\definecolor{lightgray}{gray}{0.8}
+\definecolor{title}{RGB}{255,0,90}
+\definecolor{dgreen}{rgb}{0.,0.6,0.}
+\definecolor{gold}{rgb}{1.,0.84,0.}
+\definecolor{JungleGreen}{cmyk}{0.99,0,0.52,0}
+\definecolor{BlueGreen}{cmyk}{0.85,0,0.33,0}
+\definecolor{RawSienna}{cmyk}{0,0.72,1,0.45}
+\definecolor{Magenta}{cmyk}{0,1,0,0}
+\definecolor{Cyan}{cmyk}{0,0,1,0}
+\definecolor{darkcyan}{rgb}{0.0, 0.55, 0.55}
+\definecolor{emerald}{rgb}{0.31, 0.78, 0.47}
+\definecolor{persiangreen}{rgb}{0.0, 0.65, 0.58}
+\definecolor{persianblue}{rgb}{0.11, 0.22, 0.73}
+\definecolor{persianindigo}{rgb}{0.2, 0.07, 0.48}
+\definecolor{persianorange}{rgb}{0.85, 0.56, 0.35}
+\definecolor{persianpink}{rgb}{0.97, 0.5, 0.75}
+\definecolor{persianplum}{rgb}{0.44, 0.11, 0.11}
+\definecolor{persianred}{rgb}{0.8, 0.2, 0.2}
+\definecolor{persianrose}{rgb}{1.0, 0.16, 0.64}
+\definecolor{malachite}{rgb}{0.04, 0.85, 0.32}
+\definecolor{red1}{RGB}{206, 17, 38}
+
+
+
+
+\newtheorem{proposition}{Proposition}
+\newtheorem{assumption}{Definition}
+%-------------------------------------------
+% image to be shown on the title page (without file extension, should be pdf or png)
+\titleimage{fu_600}
+%-------------------------------------------
+\title[] % (optional, use only with long paper titles)
+{Advanced Econometrics\\[1ex]\normalsize 
+}
+
+%\subtitle
+%{Empirical Evidence from a Life Cycle Model\\[4ex]}
+
+
+\author[D. Rostam-Afschar]{Simplify multivariate regressions using Frisch-Waugh-Lovell partialling out\\[2ex]}
+
+\institute[]{}
+            
+\date[] % (optional, should be abbreviation of conference name)
+{}
+% - Either use conference name or its abbreviation.
+% - Not really informative to the audience, more for people (including
+%   yourself) who are reading the slides online
+
+\subject{Econometrics}
+% This is only inserted into the PDF information catalog. Can be left
+% out.
+
+% you can redefine the text shown in the footline. use a combination of
+% \insertshortauthor, \insertshortinstitute, \insertshorttitle, \insertshortdate, ...
+\renewcommand{\footlinetext}{\insertshortinstitute, \insertshorttitle, \insertshortdate}
+
+% Definitions
+\def\eps{\varepsilon}
+\def\beX{\begin{itemize}}
+\def\beXX{\begin{itemize}}
+\def\beXXX{\begin{itemize}}
+\def\beXXXX{\begin{itemize}}
+\def\eeX{\end{itemize}}
+\def\eeXX{\end{itemize}}
+\def\eeXXX{\end{itemize}}
+\def\eeXXXX{\end{itemize}}
+\def\ind{\hspace{.25in}}
+\def\be{\begin{enumerate}}
+\def\ee{\end{enumerate}}
+\def\bbf{\begin{frame}}
+\def\eef{\begin{frame}}
+\def\thepage{\arabic{page} of 4}
+\def\beqn{\begin{equation}}
+\def\baeqn{\begin{eqnarray}}
+\def\eaeqn{\end{eqnarray}}
+\def\eeqn{\end{equation}}
+\def\inde{\hspace{0.1cm}}
+\def\indee{\hspace{0.3cm}}
+\def\indeee{\hspace{1cm}}
+\def\dis{\displaystyle}
+
+
+\begin{document}
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+% If you want to display your table of contents at every subsection:
+%\AtBeginSubsection[]
+%{
+%\begin{frame}<beamer>{Content}
+%\begin{footnotesize}
+%\tableofcontents[currentsection,currentsubsection]
+%\end{footnotesize}
+%\end{frame}
+%}
+% --------------------------------------------------- Slide --
+\begin{frame}[plain]
+  \titlepage
+\end{frame}
+
+
+
+
+% --------------------------------------------------- Slide --
+\begin{frame}
+	\frametitle{Content}
+	\tableofcontents[%
+ 		%currentsection, % causes all sections but the current to be shown in a semi-transparent way.
+ 		%currentsubsection, % causes all subsections but the current subsection in the current section to ...
+ 		%hideallsubsections, % causes all subsections to be hidden.
+ 		%hideothersubsections, % causes the subsections of sections other than the current one to be hidden.
+ 		%part=, % part number causes the table of contents of part part number to be shown
+ 		%pausesections, % causes a \pause command to be issued before each section. This is useful if you
+ 		%pausesubsections, %  causes a \pause command to be issued before each subsection.
+ 		%sections={ overlay specification },
+	]
+
+\end{frame}
+
+												
+
+\section{Frisch-Waugh-Lovell Theorem in equation algebra}
+
+
+
+\begin{frame}{\small From the multivariate to the bivariate regression}
+Regress $y_i$ on two explanatory variables, where $x^{1}_i$ is the variable of interest and $x^{\text{0}}_i$ (or further variables) are not of interest.
+
+\begin{eqnarray}
+y_i =\beta_0+\beta^{1}x^{1}_i+\beta^{\text{0}}x^{\text{0}}_i+\varepsilon_i.
+\end{eqnarray}
+
+Surprising and useful result:
+\begin{itemize}
+	\item We can obtain \textbf{exactly the same} coefficients and residuals from a regression two \textcolor{red1}{demeaned} variables
+$$\tilde{y}_i=\beta_0+\beta_1\tilde{x}^{1}_i+\varepsilon_i.$$
+	\item We can obtain \textbf{exactly the same} coefficient and residuals from a regression of two \textcolor{red1}{residualized} variables
+	$$\varepsilon^{y}_i=\beta^{1}\varepsilon^{1}_i+\varepsilon_i.$$
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Why is the decomposition useful?}
+Allows breaking a multivariate model with $K$ independent variables into $K$ bivariate models.
+\small
+\begin{itemize}
+	\item Relationship between two variables from a multivariate model can be shown in a two-dimensional scatter plot
+	\item Absorbs fixed effects to reduce computation time (see reghdfe for Stata)
+	\item Allows to separate variability between the regressors (multicollinearity) and between the residualized variable $\tilde{x}^{1}_i$ and the dependent variable $y_i$.
+	\item Understand biases in multivariate models tractably.
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}{How to decompose $y_i$ and $x^{1}_i$?}
+Partial out $x^{\text{0}}_i$ from $y_i$ and from $x^{1}_i$.
+\begin{itemize}
+	\item Regress $x^{1}_i$ on all $x^{\text{0}}_i$ and get residuals $\varepsilon^{1}_i$:
+	$$x^{1}_i=\gamma_0+\gamma_1x^{\text{0}}_i+\varepsilon^{1}_i,$$
+	this implies $Cov(x^{0}_i\varepsilon^{1}_i)=0,$
+	\item Regress $y_i$ on all $x^{\text{0}}_i$ and get residuals $\varepsilon^{y}_i$:
+	$$y_i=\delta_0+\delta_1x^{\text{0}}_i+\varepsilon^{y}_i.$$
+	This implies $Cov(x^{0}_i\varepsilon^{y}_i)=0.$
+\end{itemize}
+From the residuals and the constants $\gamma_0$ and $\delta_0$ generate
+\begin{itemize}
+	\item $\tilde{x}^{1}_i=\gamma_0+\varepsilon^{1}_i,$
+	\item $\tilde{y}^{1}_i=\delta_0+\varepsilon^{y}_i.$
+\end{itemize}
+Finally,
+$$\tilde{y}_i=\tilde{\beta}_0+\tilde{\beta}_1\tilde{x}^{1}_i+\tilde{\varepsilon}_i=\beta_0+\beta_1\tilde{x}^{1}_i+\varepsilon_i.$$	
+\end{frame}
+
+\begin{frame}{Decomposition theorem}
+\begin{theorem}
+\textbf{Decomposition theorem.} For multivariate regressions and detrended regressions, e.g.,
+$$y_i =\beta_0+\beta^{1}x^{1}_i+\beta^{\text{0}}x^{\text{0}}_i+\varepsilon_i,$$
+$$\tilde{y}_i=\tilde{\beta}_0+\tilde{\beta}_1\tilde{x}^{1}_i+\tilde{\varepsilon}_i,$$	
+the same regression coefficients will be obtained with any non-empty subset of the explanatory variables, such that
+$$\tilde{\beta}_1=\beta_1 \; \text{ and also }\; \tilde{\varepsilon}_i=\varepsilon_i.$$
+\end{theorem}
+\small Examining either set of residuals will convey precisely the same information about the properties of the unobservable stochastic disturbances.
+
+\end{frame}
+
+\begin{frame}{Proof}
+Show that 
+\begin{eqnarray}
+y_i &=\beta_0+\beta^{1}x^{1}_i+\beta^{\text{0}}x^{\text{0}}_i+\varepsilon_i \label{orig}\\
+&=\tilde{y}_i=\tilde{\beta}_0+\tilde{\beta}_1\tilde{x}^{1}_i+\tilde{\varepsilon}_i.
+\end{eqnarray}
+Plug in the detrended variables in the equation~\eqref{orig}
+\begin{eqnarray}
+y_i &=\delta_0+\delta_1x^{\text{0}}_i+\varepsilon^{y}_i=\beta_0+\beta^{1}(\gamma_0+\gamma_1x^{\text{0}}_i+\varepsilon^{1}_i)+\beta^{\text{0}}x^{\text{0}}_i+\varepsilon_i\nonumber\\
+&=\delta_0+\varepsilon^{y}_i=\beta_0+\beta^{1}(\gamma_0+\gamma_1x^{\text{0}}_i-\delta_1x^{\text{0}}_i+\varepsilon^{1}_i)+\beta^{\text{0}}x^{\text{0}}_i+\varepsilon_i\\
+&=\delta_0+\varepsilon^{y}_i=\beta_0+\beta^{1}(\gamma_0-\delta_1x^{\text{0}}_i+\varepsilon^{1}_i)+(\beta^{1}\gamma_1x^{\text{0}XXX}_i+\beta^{\text{0}}x^{\text{0}}_i+\varepsilon_i
+\end{eqnarray}
+
+
+
+The same result of the FWL Theorem holds as well for a regression of the demeaned variables:
+$$\varepsilon^{y}_i=\beta^{1}\varepsilon^{1}_i+\varepsilon_i.$$
+
+\end{frame}
+
+\section{Projection and residual maker matrices}
+
+
+
+\begin{frame}{Partition of $\bm{y}$}
+Least squares partitions the vector $\bm{y}$ into two orthogonal parts
+
+$$\bm{y}=\bm{\hat{y}}+\bm{e}=\bm{Xb}+\bm{e}=\bm{Py}+\bm{My}.$$
+\begin{itemize}
+	\item $n \times 1$ vector of data $\bm{y}$
+	\item $n \times n$ projection matrix $\bm{P}$
+	\item $n \times n$ residual maker matrix $\bm{M}$
+	\item $n \times 1$ vector of residuals $\bm{e}$
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Projection Matrix}
+\begin{eqnarray}
+\bm{Py}&=&\bm{Xb}=\bm{X(X'X)^{-1}X'y}\nonumber\\
+&&\nonumber\\
+&&\rightarrow \bm{P}=\bm{X(X'X)^{-1}X'}.\nonumber
+\end{eqnarray}
+
+\begin{assumption} \textbf{Properties}. 
+\begin{itemize}
+	\item symmetric such that $\bm{P}=\bm{P}'$
+	\item idempotent such that $\bm{P}=\bm{P}^2$
+	\item annihilator matrix $\bm{P}\bm{X}=\bm{X}$
+\end{itemize}
+\end{assumption} 
+\end{frame}
+
+
+\begin{frame}{Example for Projection Matrix}
+\small
+\begin{example}
+Show $\bm{P}\bm{X}=\bm{X(X'X)^{-1}X'}\bm{X}=\bm{X}.$
+\begin{eqnarray}
+&&\textbf{X}=\begin{bmatrix}
+1 & 0\\
+1 & 1 \\
+1 & 0
+\end{bmatrix};
+\nonumber\\
+&&\textbf{X'X}=\begin{bmatrix}
+1 & 1 & 1\\
+0 & 1 & 0\\
+\end{bmatrix}\begin{bmatrix}
+1 & 0\\
+1 & 1 \\
+1 & 0
+\end{bmatrix}=\begin{bmatrix}
+3 & 1 \\
+1 & 1 
+\end{bmatrix};
+\textbf{X'X}^{-1}=\begin{bmatrix}
+1/2 & -1/2\\
+-1/2 & 1.5 
+\end{bmatrix};
+\nonumber\\
+&&\bm{X(X'X)^{-1}X'}=\begin{bmatrix}
+1 & 0\\
+1 & 1 \\
+1 & 0
+\end{bmatrix}
+\begin{bmatrix}
+1/2 & -1/2\\
+-1/2 & 3/2 
+\end{bmatrix}
+\begin{bmatrix}
+1 & 1 & 1\\
+0 & 1 & 0\\
+\end{bmatrix}=
+\begin{bmatrix}
+1/2 & 0 & 1/2\\
+0 & 1 & 0\\
+1/2 & 0 & 1/2
+\end{bmatrix}
+\nonumber\\
+&&\bm{P}\bm{X}=\begin{bmatrix}
+1/2 & 0 & 1/2\\
+0 & 1 & 0\\
+1/2 & 0 & 1/2
+\end{bmatrix}\begin{bmatrix}
+1 & 0\\
+1 & 1 \\
+1 & 0
+\end{bmatrix}=\begin{bmatrix}
+1 & 0\\
+1 & 1 \\
+1 & 0
+\end{bmatrix}.
+\end{eqnarray}
+\end{example}
+
+
+\end{frame}
+
+
+
+\begin{frame}{Residual Maker Matrix}
+\begin{eqnarray}
+\bm{My}&=&\bm{e}=\bm{y}-\bm{Xb}=\bm{y}-\bm{X(X'X)^{-1}X'y}\nonumber\\
+\bm{My}&=&(\bm{I}-\bm{X(X'X)^{-1}X')y}\nonumber\\
+&&\nonumber\\
+&&\rightarrow \bm{M}=\bm{I}-\bm{X(X'X)^{-1}X'}=(\bm{I}-\bm{P}).\nonumber
+\end{eqnarray}
+
+\begin{assumption} \textbf{Properties}. 
+\begin{itemize}
+	\item symmetric such that $\bm{M}=\bm{M}'$
+	\item idempotent such that $\bm{M}=\bm{M}^2$
+	\item annihilator matrix $\bm{M}\bm{X}=0$
+	\item orthogonal to $\bm{P}$: $\bm{P}\bm{M}=\bm{M}\bm{P}=\bm{0}.$
+
+\end{itemize}
+\end{assumption} 
+
+
+\end{frame}
+
+
+
+\begin{frame}{Example for Residual Maker Matrix}
+\small
+\begin{example}
+Show $\bm{M}\bm{X}=(\bm{I}-\bm{X(X'X)^{-1}X'})\bm{X}=(\bm{I}-\bm{P})\bm{X}=\bm{X}-\bm{X}=\bm{0}.$
+\begin{eqnarray}
+&&\textbf{I}=\begin{bmatrix}
+1 & 0 & 0\\
+0 & 1 & 0\\
+0 & 0 & 1 
+\end{bmatrix};
+\textbf{X}=\begin{bmatrix}
+1 & 0\\
+1 & 1 \\
+1 & 0
+\end{bmatrix};
+\nonumber\\
+&&\bm{M}=(\bm{I}-\bm{P})=\begin{bmatrix}
+1 & 0 & 0\\
+0 & 1 & 0\\
+0 & 0 & 1 
+\end{bmatrix}-\begin{bmatrix}
+1/2 & 0 & 1/2\\
+0 & 1 & 0\\
+1/2 & 0 & 1/2
+\end{bmatrix}=
+\begin{bmatrix}
+1/2 & 0 & -1/2\\
+0 & 0 & 0\\
+-1/2 & 0 & 1/2
+\end{bmatrix}\nonumber\\
+&&\bm{M}\bm{X}=\begin{bmatrix}
+1/2 & 0 & -1/2\\
+0 & 0 & 0\\
+-1/2 & 0 & 1/2
+\end{bmatrix}
+\begin{bmatrix}
+1 & 0\\
+1 & 1 \\
+1 & 0
+\end{bmatrix}=\begin{bmatrix}
+0 & 0\\
+0 & 0 \\
+0 & 0
+\end{bmatrix}.
+\end{eqnarray}
+\end{example}
+
+
+\end{frame}
+
+
+
+\section{Frisch-Waugh-Lovell Theorem in matrix algebra}
+
+
+
+
+\begin{frame}{Example for Residual Maker Matrix}
+\small
+\begin{example}
+Show $\bm{M}\bm{X}=(\bm{I}-\bm{X(X'X)^{-1}X'})\bm{X}=(\bm{I}-\bm{P})\bm{X}=\bm{X}-\bm{X}=\bm{0}.$
+\end{example}
+
+
+\end{frame}
+
+
+\begin{frame}{Example for Residual Maker Matrix}
+\small
+\begin{example}
+Show $\bm{M}\bm{X}=(\bm{I}-\bm{X(X'X)^{-1}X'})\bm{X}=(\bm{I}-\bm{P})\bm{X}=\bm{X}-\bm{X}=\bm{0}.$
+\end{example}
+
+
+\end{frame}
+
+
+\begin{frame}{Example for Residual Maker Matrix}
+\small
+\begin{example}
+Show $\bm{M}\bm{X}=(\bm{I}-\bm{X(X'X)^{-1}X'})\bm{X}=(\bm{I}-\bm{P})\bm{X}=\bm{X}-\bm{X}=\bm{0}.$
+\end{example}
+
+
+\end{frame}
+
+
+
+
+
+%
+%\setlength{\bibsep}{0pt}
+%\def\newblock{References} 
+%{\footnotesize
+%\bibliography{bib}}
+
+
+\begin{frame}[t,allowframebreaks
+]\nocite{*}
+\frametitle{References}
+\small
+\bibliography{bib}
+\end{frame}
+
+
+
+\end{document}

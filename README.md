@@ -2,25 +2,25 @@
 
 **Short guides with tricks and tips to understand and apply econometrics:**
 
-- Review of Probability Theory
+- [Review of Probability Theory](https://github.com/listoflistoflist/econometricks/blob/main/trick%201/trick01.pdf)
 
-- Specific Distributions
+- [Specific Distributions](https://github.com/listoflistoflist/econometricks/blob/main/trick%202/trick02.pdf)
 
-- Review of Distribution Theory
+- [Review of Distribution Theory](https://github.com/listoflistoflist/econometricks/blob/main/trick%203/trick03.pdf)
 
-- The Least Squares Estimator
+- [The Least Squares Estimator](https://github.com/listoflistoflist/econometricks/blob/main/trick%204/trick04.pdf)
 
-- Simplifying Linear Regressions using Frisch-Waugh-Lowell
+- [Simplifying Linear Regressions using Frisch-Waugh-Lowell](https://github.com/listoflistoflist/econometricks/blob/main/trick%205/trick05.pdf)
 
 - Maximum Likelihood Estimation
 
-- Generalized Method of Moments
+- [Generalized Method of Moments](https://github.com/listoflistoflist/econometricks/blob/main/trick%207/trick07.pdf)
 
 **Short Stata programs with tricks and tips:**
 
-- Monte carlo simulation for law of large numbers
+- [Monte carlo simulation for law of large numbers](https://github.com/listoflistoflist/econometricks/blob/main/trick%204/code/mc_distribution_error.do)
 
-- Monte carlo simulation for efficient GMM estimation
+- [Monte carlo simulation for efficient GMM estimation](https://github.com/listoflistoflist/econometricks/blob/main/trick%207/code/gmm.do)
 
 ## Students
 Please find typos or errors and correct them via a pull request.

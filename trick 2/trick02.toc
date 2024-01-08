@@ -1,4 +1,4 @@
-\babel@toc {english}{}
+\babel@toc {english}{}\relax 
 \beamer@sectionintoc {1}{The normal distribution}{7}{0}{1}
 \beamer@sectionintoc {2}{Method of transformations}{8}{0}{2}
 \beamer@sectionintoc {3}{The $\chi ^2$ distribution}{13}{0}{3}
@@ -9,3 +9,4 @@
 \beamer@sectionintoc {8}{The beta distribution}{20}{0}{8}
 \beamer@sectionintoc {9}{The logistic distribution}{21}{0}{9}
 \beamer@sectionintoc {10}{The Wishart distribution}{22}{0}{10}
+\beamer@sectionintoc {11}{Common distributions and their properties}{23}{0}{11}

@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.12) (preloaded format=pdflatex 2024.1.7)  8 JAN 2024 22:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.12) (preloaded format=pdflatex 2024.1.7)  8 JAN 2024 22:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./trick02.tex
-(trick02.tex
+**./trick06.tex
+(trick06.tex
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-12-11>
 
@@ -1389,7 +1389,7 @@ d\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-11-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count383
 \l__pdf_internal_box=\box138
-) (trick02.aux
+) (trick06.aux
 
 LaTeX Warning: Label `f4' multiply defined.
 
@@ -1412,7 +1412,7 @@ LaTeX Warning: Label `f2' multiply defined.
 LaTeX Warning: Label `f2' multiply defined.
 
 )
-\openout1 = `trick02.aux'.
+\openout1 = `trick06.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 151.
 LaTeX Font Info:    ... okay on input line 151.
@@ -1484,9 +1484,9 @@ kii\supp-pdf.mkii
 \everyMPtoPDFconversion=\toks56
 )
 Package hyperref Info: Link coloring OFF on input line 151.
- (trick02.out) (trick02.out)
+ (trick06.out) (trick06.out)
 \@outlinefile=\write5
-\openout5 = `trick02.out'.
+\openout5 = `trick06.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/ccr/m/n --> OT1/cmss/m/n on input line 151.
@@ -1578,7 +1578,7 @@ Package caption Info: threeparttable package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count390
- (trick02.nav)
+ (trick06.nav)
 Underfull \hbox (badness 10000) in paragraph at lines 155--155
 
  []
@@ -1646,294 +1646,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 155--155
 [1
 
 {C:/Users/Davud Rostam-Afschar/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map
-}] (trick02.toc) [2
+}] (trick06.toc) [2
 
-]
-<figures/distributions.png, id=98, 721.94719pt x 429.85594pt>
-File: figures/distributions.png Graphic file (type png)
-<use figures/distributions.png>
-Package pdftex.def Info: figures/distributions.png  used on input line 172.
-(pdftex.def)             Requested size: 266.3189pt x 158.56538pt.
- [3
-
- <./figures/distributions.png>] [4
-
-]
-<figures/binomial_pdf.png, id=114, 896.34875pt x 652.4375pt>
-File: figures/binomial_pdf.png Graphic file (type png)
-<use figures/binomial_pdf.png>
-Package pdftex.def Info: figures/binomial_pdf.png  used on input line 211.
-(pdftex.def)             Requested size: 149.80278pt x 109.03133pt.
-<figures/binomial_cdf.png, id=115, 896.34875pt x 652.4375pt>
-File: figures/binomial_cdf.png Graphic file (type png)
-<use figures/binomial_cdf.png>
-Package pdftex.def Info: figures/binomial_cdf.png  used on input line 211.
-(pdftex.def)             Requested size: 149.80278pt x 109.03133pt.
- [5
-
- <./figures/binomial_pdf.png (PNG copy)> <./figures/binomial_cdf.png (PNG copy)
->]
-<figures/poisson_pdf.png, id=124, 896.34875pt x 652.4375pt>
-File: figures/poisson_pdf.png Graphic file (type png)
-<use figures/poisson_pdf.png>
-Package pdftex.def Info: figures/poisson_pdf.png  used on input line 234.
-(pdftex.def)             Requested size: 149.80278pt x 109.03133pt.
-
-Overfull \vbox (3.71825pt too high) detected at line 234
- []
-
-[6
-
- <./figures/poisson_pdf.png (PNG copy)>]
-<figures/normals_pdf.png, id=132, 896.34875pt x 652.4375pt>
-File: figures/normals_pdf.png Graphic file (type png)
-<use figures/normals_pdf.png>
-Package pdftex.def Info: figures/normals_pdf.png  used on input line 256.
-(pdftex.def)             Requested size: 149.80278pt x 109.03133pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{f4}) has been
- already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.256 \end{frame}
-                  [7
-
- <./figures/normals_pdf.png (PNG copy)>] [8
-
-]
-LaTeX Font Info:    External font `xccex10' loaded for size
-(Font)              <5> on input line 293.
-
-Overfull \vbox (24.96907pt too high) detected at line 293
- []
-
-[9
-
-] [10
-
-] [11
-
-]
-LaTeX Font Info:    External font `xccex10' loaded for size
-(Font)              <9> on input line 335.
- [12
-
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 338.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\chi' on input line 338.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 338.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 338.
-
-<figures/chi2_pdf.png, id=170, 896.34875pt x 652.4375pt>
-File: figures/chi2_pdf.png Graphic file (type png)
-<use figures/chi2_pdf.png>
-Package pdftex.def Info: figures/chi2_pdf.png  used on input line 359.
-(pdftex.def)             Requested size: 149.80278pt x 109.03133pt.
-<figures/chi2_cdf.png, id=171, 896.34875pt x 652.4375pt>
-File: figures/chi2_cdf.png Graphic file (type png)
-<use figures/chi2_cdf.png>
-Package pdftex.def Info: figures/chi2_cdf.png  used on input line 359.
-(pdftex.def)             Requested size: 149.80278pt x 109.03133pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{f2}) has been
- already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.359 \end{frame}
-                 
-LaTeX Font Info:    External font `xccex10' loaded for size
-(Font)              <12> on input line 359.
-
-Overfull \vbox (12.04675pt too high) detected at line 359
- []
-
-[13
-
- <./figures/chi2_pdf.png (PNG copy)> <./figures/chi2_cdf.png (PNG copy)>]
-<figures/F_pdf.png, id=178, 896.34875pt x 652.4375pt>
-File: figures/F_pdf.png Graphic file (type png)
-<use figures/F_pdf.png>
-Package pdftex.def Info: figures/F_pdf.png  used on input line 380.
-(pdftex.def)             Requested size: 149.80278pt x 109.03133pt.
-<figures/F_cdf.png, id=179, 896.34875pt x 652.4375pt>
-File: figures/F_cdf.png Graphic file (type png)
-<use figures/F_cdf.png>
-Package pdftex.def Info: figures/F_cdf.png  used on input line 380.
-(pdftex.def)             Requested size: 149.80278pt x 109.03133pt.
-
-[14
-
- <./figures/F_pdf.png (PNG copy)> <./figures/F_cdf.png (PNG copy)>]
-<figures/t_pdf.png, id=186, 718.685pt x 430.60875pt>
-File: figures/t_pdf.png Graphic file (type png)
-<use figures/t_pdf.png>
-Package pdftex.def Info: figures/t_pdf.png  used on input line 403.
-(pdftex.def)             Requested size: 149.80278pt x 89.75372pt.
-<figures/t_cdf.png, id=187, 718.685pt x 430.60875pt>
-File: figures/t_cdf.png Graphic file (type png)
-<use figures/t_cdf.png>
-Package pdftex.def Info: figures/t_cdf.png  used on input line 403.
-(pdftex.def)             Requested size: 149.80278pt x 89.75372pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{f3}) has been
- already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.403 \end{frame}
-                  [15
-
- <./figures/t_pdf.png (PNG copy)> <./figures/t_cdf.png (PNG copy)>]
-File: figures/t_pdf.png Graphic file (type png)
-<use figures/t_pdf.png>
-Package pdftex.def Info: figures/t_pdf.png  used on input line 409.
-(pdftex.def)             Requested size: 299.60558pt x 179.51404pt.
- [16
-
-]
-<figures/chi2_cdf_approx.png, id=201, 718.685pt x 430.60875pt>
-File: figures/chi2_cdf_approx.png Graphic file (type png)
-<use figures/chi2_cdf_approx.png>
-Package pdftex.def Info: figures/chi2_cdf_approx.png  used on input line 429.
-(pdftex.def)             Requested size: 199.74043pt x 119.67603pt.
- [17
-
- <./figures/chi2_cdf_approx.png (PNG copy)>]
-<figures/lnnormal_pdf.png, id=209, 718.685pt x 430.60875pt>
-File: figures/lnnormal_pdf.png Graphic file (type png)
-<use figures/lnnormal_pdf.png>
-Package pdftex.def Info: figures/lnnormal_pdf.png  used on input line 455.
-(pdftex.def)             Requested size: 149.80278pt x 89.75372pt.
-<figures/lnnormal_cdf.png, id=210, 718.685pt x 430.60875pt>
-File: figures/lnnormal_cdf.png Graphic file (type png)
-<use figures/lnnormal_cdf.png>
-Package pdftex.def Info: figures/lnnormal_cdf.png  used on input line 455.
-(pdftex.def)             Requested size: 149.80278pt x 89.75372pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{f2}) has been
- already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.455 \end{frame}
-                  [18
-
- <./figures/lnnormal_pdf.png (PNG copy)> <./figures/lnnormal_cdf.png (PNG copy)
->]
-<figures/gamma_pdf.png, id=215, 718.685pt x 430.60875pt>
-File: figures/gamma_pdf.png Graphic file (type png)
-<use figures/gamma_pdf.png>
-Package pdftex.def Info: figures/gamma_pdf.png  used on input line 474.
-(pdftex.def)             Requested size: 149.80278pt x 89.75372pt.
-<figures/gamma_cdf.png, id=216, 718.685pt x 430.60875pt>
-File: figures/gamma_cdf.png Graphic file (type png)
-<use figures/gamma_cdf.png>
-Package pdftex.def Info: figures/gamma_cdf.png  used on input line 474.
-(pdftex.def)             Requested size: 149.80278pt x 89.75372pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{f2}) has been
- already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.474 \end{frame}
-                  [19
-
- <./figures/gamma_pdf.png (PNG copy)> <./figures/gamma_cdf.png (PNG copy)>]
-<figures/beta_pdf.png, id=222, 718.685pt x 430.60875pt>
-File: figures/beta_pdf.png Graphic file (type png)
-<use figures/beta_pdf.png>
-Package pdftex.def Info: figures/beta_pdf.png  used on input line 491.
-(pdftex.def)             Requested size: 149.80278pt x 89.75372pt.
-<figures/beta_cdf.png, id=223, 718.685pt x 430.60875pt>
-File: figures/beta_cdf.png Graphic file (type png)
-<use figures/beta_cdf.png>
-Package pdftex.def Info: figures/beta_cdf.png  used on input line 491.
-(pdftex.def)             Requested size: 149.80278pt x 89.75372pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{f2}) has been
- already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.491 \end{frame}
-                  [20
-
- <./figures/beta_pdf.png (PNG copy)> <./figures/beta_cdf.png (PNG copy)>]
-<figures/normal_logistic_cdf.png, id=228, 896.34875pt x 652.4375pt>
-File: figures/normal_logistic_cdf.png Graphic file (type png)
-<use figures/normal_logistic_cdf.png>
-Package pdftex.def Info: figures/normal_logistic_cdf.png  used on input line 50
-7.
-(pdftex.def)             Requested size: 166.44867pt x 121.14703pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{f2}) has been
- already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.507 \end{frame}
-                  [21
-
- <./figures/normal_logistic_cdf.png (PNG copy)>] [22
-
-]
-[23
-
-]
-Overfull \hbox (14.09961pt too wide) in paragraph at lines 613--613
- [] 
- []
-
-
-Overfull \vbox (14.89856pt too high) detected at line 613
- []
-
-[24
-
-] [25
-
-]
-Overfull \hbox (13.08823pt too wide) in paragraph at lines 688--688
- [] 
- []
-
-
-Overfull \vbox (9.0632pt too high) detected at line 688
- []
-
-[26
-
-]
-Overfull \vbox (13.4351pt too high) detected at line 727
- []
-
-[27
-
-] (trick02.bbl
+] (trick06.bbl
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10> not available
 (Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 13.
 
-) [28
+) [3
 
 ]
 \tf@nav=\write6
-\openout6 = `trick02.nav'.
+\openout6 = `trick06.nav'.
 
 \tf@toc=\write7
-\openout7 = `trick02.toc'.
+\openout7 = `trick06.toc'.
 
 \tf@snm=\write8
-\openout8 = `trick02.snm'.
+\openout8 = `trick06.snm'.
 
- (trick02.aux)
+ (trick06.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-12-11>
@@ -1942,57 +1674,116 @@ L3 programming layer <2023-12-11>
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `trick02.out' has not changed.
-(rerunfilecheck)             Checksum: 7D24687C1649EB42E2F5B5041D777742;705.
+
+Package rerunfilecheck Warning: File `trick06.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `trick06.out':
+(rerunfilecheck)             Before: 738555FAABE14A30DA715298FA77F235;627
+(rerunfilecheck)             After:  06E27B416B3B1946CD705C501CA5B3BD;45.
  ) 
 Here is how much of TeX's memory you used:
- 32051 strings out of 474495
- 648646 string characters out of 5736820
- 1949460 words of memory out of 5000000
- 53546 multiletter control sequences out of 15000+600000
- 583363 words of font info for 114 fonts, out of 8000000 for 9000
+ 31584 strings out of 474495
+ 637927 string characters out of 5736820
+ 1931460 words of memory out of 5000000
+ 53148 multiletter control sequences out of 15000+600000
+ 571364 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,19n,123p,1332b,479s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Davud Rostam-Afschar\AppData\Local\MiKTeX\fonts/pk/ljfour/public/c
-oncmath-fonts/dpi600\xccmi5.pk> <C:\Users\Davud Rostam-Afschar\AppData\Local\Mi
-KTeX\fonts/pk/ljfour/jknappen/ec/dpi657\ecso1000.pk> <C:\Users\Davud Rostam-Afs
-char\AppData\Local\MiKTeX\fonts/pk/ljfour/public/concmath-fonts/dpi720\xccmi10.
-pk> <C:\Users\Davud Rostam-Afschar\AppData\Local\MiKTeX\fonts/pk/ljfour/public/
-concmath-fonts/dpi600\xccmi9.pk> <C:\Users\Davud Rostam-Afschar\AppData\Local\M
-iKTeX\fonts/pk/ljfour/public/concmath-fonts/dpi600\xccsy9.pk> <C:\Users\Davud R
-ostam-Afschar\AppData\Local\MiKTeX\fonts/pk/ljfour/public/concmath-fonts/dpi600
-\xccsy5.pk> <C:\Users\Davud Rostam-Afschar\AppData\Local\MiKTeX\fonts/pk/ljfour
-/public/concmath-fonts/dpi600\xccex10.pk> <C:\Users\Davud Rostam-Afschar\AppDat
-a\Local\MiKTeX\fonts/pk/ljfour/public/concmath-fonts/dpi600\xccmi6.pk> <C:\User
-s\Davud Rostam-Afschar\AppData\Local\MiKTeX\fonts/pk/ljfour/public/concmath-fon
-ts/dpi600\xccsy6.pk> <C:\Users\Davud Rostam-Afschar\AppData\Local\MiKTeX\fonts/
-pk/ljfour/public/concmath-fonts/dpi600\xccmi8.pk> <C:\Users\Davud Rostam-Afscha
-r\AppData\Local\MiKTeX\fonts/pk/ljfour/public/concmath-fonts/dpi600\xccsy8.pk> 
-<C:\Users\Davud Rostam-Afschar\AppData\Local\MiKTeX\fonts/pk/ljfour/public/conc
-math-fonts/dpi657\xccsy10.pk> <C:\Users\Davud Rostam-Afschar\AppData\Local\MiKT
-eX\fonts/pk/ljfour/public/concmath-fonts/dpi657\xccmi10.pk><C:/Users/Davud Rost
-am-Afschar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10
-.pfb><C:/Users/Davud Rostam-Afschar/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmss10.pfb><C:/Users/Davud Rostam-Afschar/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/Davud Rostam-Afs
-char/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C
-:/Users/Davud Rostam-Afschar/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
-msfonts/cm/cmss8.pfb><C:/Users/Davud Rostam-Afschar/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Users/Davud Rostam-Afschar/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users
-/Davud Rostam-Afschar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmssi10.pfb><C:/Users/Davud Rostam-Afschar/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmssi12.pfb><C:/Users/Davud Rostam-Afschar/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Users/Davu
-d Rostam-Afschar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
-mssi9.pfb><C:/Users/Davud Rostam-Afschar/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/symbols/msam10.pfb><C:/Users/Davud Rostam-Afschar/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam7.pfb><C:/Users/Da
-vud Rostam-Afschar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/sy
-mbols/msbm10.pfb>
-Output written on trick02.pdf (28 pages, 1159166 bytes).
+ 128i,11n,123p,1332b,463s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{Navigation22} has been referenced but does not exis
+t, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Navigation21} has been referenced but does not exis
+t, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Navigation20} has been referenced but does not exis
+t, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Navigation19} has been referenced but does not exis
+t, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Navigation18} has been referenced but does not exis
+t, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Navigation15} has been referenced but does not exis
+t, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Navigation14} has been referenced but does not exis
+t, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Navigation13} has been referenced but does not exis
+t, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Navigation8} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Navigation7} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Outline0.11} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Outline0.10} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Outline0.9} has been referenced but does not exist,
+ replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Outline0.8} has been referenced but does not exist,
+ replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Outline0.7} has been referenced but does not exist,
+ replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Outline0.6} has been referenced but does not exist,
+ replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Outline0.5} has been referenced but does not exist,
+ replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Outline0.4} has been referenced but does not exist,
+ replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Outline0.3} has been referenced but does not exist,
+ replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Outline0.2} has been referenced but does not exist,
+ replaced by a fixed one
+
+ <C:\Users\Davud Rostam-Afschar\AppData\Local\MiKTeX\fonts/pk/ljfour/public/con
+cmath-fonts/dpi657\xccmi10.pk><C:/Users/Davud Rostam-Afschar/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Davud Rostam-A
+fschar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb>
+<C:/Users/Davud Rostam-Afschar/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmss12.pfb><C:/Users/Davud Rostam-Afschar/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Users/Davud Rostam-Afschar/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/User
+s/Davud Rostam-Afschar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmssi10.pfb>
+Output written on trick06.pdf (3 pages, 76102 bytes).
 PDF statistics:
- 507 PDF objects out of 1000 (max. 8388607)
- 78 named destinations out of 1000 (max. 500000)
- 234 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 137 PDF objects out of 1000 (max. 8388607)
+ 29 named destinations out of 1000 (max. 500000)
+ 131 words of extra memory for PDF output out of 10000 (max. 10000000)
 

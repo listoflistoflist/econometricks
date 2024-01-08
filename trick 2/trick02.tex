@@ -383,11 +383,11 @@ If $x_{1}$ and $x_{2}$ are two independent chi-squared variables with degrees of
 
 \section{The student t-distribution}
 \begin{frame}{The student t-distribution}
-If $z$ is an $N[0, 1]$ variable and $x$ is $\chi^{2}[n]$ and is independent of $z$, then the ratio
+If $x_1$ is an $N[0, 1]$ variable, often denoted by $z$, and $x_2$ is $\chi^{2}[n_2]$ and is independent of $x_1$, then the ratio
   \begin{equation}\label{eq12}
-    t[n] = \frac{z}{\sqrt{x/n}}.
+    t[n_2] = \frac{x_1}{\sqrt{x_2/n_2}}.
   \end{equation}
-  has the $\textbf{t distribution}$ with $n$ degrees of freedom.
+  has the $\textbf{t distribution}$ with $n_2$ degrees of freedom.
  
 Example for the $t$ distributions with $3$ and $10$ degrees of freedom with the standard normal distribution.
 \begin{figure}[H]
@@ -436,7 +436,7 @@ which is approximately standard normally distributed. Thus,
 The $\textbf{lognormal distribution}$, denoted $LN[\mu,\sigma^{2}]$, has been particularly
 useful in modeling the size distributions.
 \begin{equation*}
-    f(x) = \frac{1}{\sqrt{2\pi}\sigma x}e^{-\frac{1}{2[(\ln x-\mu)/\sigma]^{2}}},~~~~~~~x>0
+    f(x) = \frac{1}{\sqrt{2\pi}\sigma x}e^{-\frac{1}{2}[(\ln x-\mu)/\sigma]^{2}},~~~~~~~x>0
 \end{equation*}
 A lognormal variable $x$ has
 \begin{itemize}
@@ -459,11 +459,11 @@ If $y \sim LN[\mu,\sigma^{2}],$ then $\ln y \sim N[\mu,\sigma^{2}].$
 \begin{frame}{The gamma distribution}
 The general form of the $\textbf{gamma distribution}$ is
 \begin{equation}
-    f(x) = \frac{\lambda^{P}}{\Gamma (P)}e^{-\lambda x}x^{P-1},~~~~~~~x\geq0, \lambda>0, P>0.
+    f(x) = \frac{\beta^{\alpha}}{\Gamma (\alpha)}e^{-\beta x}x^{\alpha-1},~~~~~~~x\geq0, \beta=1/\theta>0, \alpha=k>0.
 \end{equation}
-Many familiar distributions are special cases, including the $\textbf{exponential distribution} (P = 1)$ and
-$\textbf{chi-squared} (\lambda = 1/2 , P = n/2 )$. The $\textbf{Erlang distribution}$ results if $P$ is a positive integer. The mean is
-$P/\lambda$, and the variance is $P/\lambda^{2}$. The $\textbf{inverse gamma distribution}$ is the distribution of $1/x$, where $x$ has the gamma distribution.
+Many familiar distributions are special cases, including the $\textbf{exponential distribution} (\alpha = 1)$ and
+$\textbf{chi-squared} (\beta = 1/2 , \alpha = n/2 )$. The $\textbf{Erlang distribution}$ results if $\alpha$ is a positive integer. The mean is
+$\alpha/\beta$, and the variance is $\alpha/\beta^{2}$. The $\textbf{inverse gamma distribution}$ is the distribution of $1/x$, where $x$ has the gamma distribution.
 \begin{figure}[H]
 \begin{center}
 %\scalebox{.36}
@@ -478,7 +478,7 @@ $P/\lambda$, and the variance is $P/\lambda^{2}$. The $\textbf{inverse gamma dis
 \begin{frame}{The beta distribution}
 For a variable constrained between $0$ and $c > 0$, the $\textbf{beta distribution}$ has proved useful. Its density is
 \begin{equation*}
-    f(x) = \frac{\Gamma(\alpha+\beta)}{\Gamma (\alpha)\Gamma(\beta)}\left(\frac{x}{c}\right)^{\alpha-1}\left(1-\frac{x}{c}\right)^{\beta-1}\frac{1}{c},~~~~~~~x\geq0, \lambda>0, P>0.
+    f(x) = \frac{\Gamma(\alpha+\beta)}{\Gamma (\alpha)\Gamma(\beta)}\left(\frac{x}{c}\right)^{\alpha-1}\left(1-\frac{x}{c}\right)^{\beta-1}\frac{1}{c},~~~~~~~0\leq x\leq1.
 \end{equation*}
 It is symmetric if $\alpha = \beta$, asymmetric otherwise.  The mean is $ca/(\alpha + \beta)$,
 and the variance is $c^{2}\alpha\beta/[(\alpha +\beta +1)(\alpha +\beta)^{2}]$.
@@ -493,12 +493,12 @@ and the variance is $c^{2}\alpha\beta/[(\alpha +\beta +1)(\alpha +\beta)^{2}]$.
 
 \section{The logistic distribution}
 \begin{frame}{The logistic distribution}
-The $\textbf{logistic distribution}$ is an alternative if the normal cannot model the mass in the tails; the cdf for a logistic random variable is
+The $\textbf{logistic distribution}$ is an alternative if the normal cannot model the mass in the tails; the cdf for a logistic random variable with $\mu=0, s=1$ is
 \begin{equation*}
     F(x) =\Lambda(x)= \frac{1}{1+e^{-x}}.
 \end{equation*}
 The density is $f(x) = \Lambda(x)[1 - \Lambda(x)]$. The mean and variance of this random variable are zero
-and $\pi^{2}/3$.
+and $\sigma^2=\pi^{2}/3$.
 \begin{figure}[H]
 \begin{center}
 {\includegraphics[width=0.5\textwidth]{figures/normal_logistic_cdf}}\label{f2}
@@ -526,6 +526,207 @@ The mean matrix is $n\Sigma$. For the individual pairs of elements in $\bm{W}$,
 \end{equation*}}
 The Wishart distribution is a multivariate extension of $\chi^2$ distribution. If $\bm{W}\sim W(n,\sigma^2)$, then $\bm{W}/\sigma^2\sim\chi^2[n].$
 \end{frame}
+
+
+\section{Common distributions and their properties}
+
+\begin{frame}{Common distributions and their properties}
+\begin{table}
+%\vspace{-2mm}\centering
+{
+%\begin{tabular}{l*{5}{D{.}{.}{-1}}}
+\begin{footnotesize}
+\begin{tabular}{@{\extracolsep{4pt}}l*{4}{l}}
+\toprule
+ & Normal & Logistic \\
+\midrule
+Parameters &$\mu\in\mathbb{R}$ , $\sigma\in\mathbb{R}_{>0}$        &  $\mu\in\mathbb{R}$ , $s\in\mathbb{R}_{>0}$   \\
+Support    & $x\in\mathbb{R}$                                        &   $x \in \mathbb{R}$    \\
+PDF        & $\phi\left(\frac{x-\mu}{\sigma}\right)=\frac{1}{\sigma\sqrt{2\pi}} e^{-\frac{1}{2}\left(\frac{x - \mu}{\sigma}\right)^2}$  &  $\lambda\left(\frac{x-\mu}{s}\right)=\frac{e^{-(x-\mu)/s}} {s\left(1+e^{-(x-\mu)/s}\right)^2}$ \\
+CDF        & $\Phi\left(\frac{x-\mu}{\sigma}\right) = \frac{1}{2}\left[1 + \operatorname{erf}\left( \frac{x-\mu}{\sigma\sqrt{2}}\right)\right] $  &  $\Lambda\left(\frac{x-\mu}{s}\right)=\frac{1}{1+e^{-(x-\mu)/s}}$ \\
+Mean       & $\mu$  &  $\mu$   \\
+Median     & $\mu$  & $\mu$     \\
+Mode       & $\mu$  &  $\mu$    \\
+Variance   & $\sigma^2$  & $\frac{s^2 \pi^2}{3}$      \\
+Skewness   &  $0$ & $0$ \\
+Ex. Kurtosis   &  $0$ & $6/5$    \\
+MGF        &  $\exp(\mu t + \sigma^2t^2/2)$ &  $e^{\mu t}B(1-st, 1+st)$    \\
+           &        &for $t \in (-1/s,1/s)$   \\
+\bottomrule
+\end{tabular}
+\end{footnotesize}
+\begin{itemize}
+\begin{tiny}
+\item PDF denotes probability density function, CDF cumulative distribution function, MGF moment-generating function.
+\item $\mu$ mean (location), $\sigma, s$ (scale).
+\item $B(z_1,z_2)$ is beta function $\int_0^1 t^{z_1-1}(1-t)^{z_2-1}\,dt$ for complex number inputs $z_1, z_2$ with $\Re(z_1),\Re(z_2) > 0$.
+\item Excess Kurtosis is defined as Kurtosis minus 3.
+%\item $k, n_1, n_2$ known as ``degrees of freedom''.
+%\item regularized incomplete beta function $I_x(a,b) = \frac{B(x;\,a,b)}{B(a,b)}.$
+\end{tiny}
+\end{itemize}
+}
+
+\end{table}
+\end{frame}
+
+
+
+\begin{frame}{Common distributions and their properties}
+\begin{table}
+%\vspace{-5mm}\centering
+{
+%\begin{tabular}{l*{5}{D{.}{.}{-1}}}
+\begin{scriptsize}
+\begin{tabular}{@{\extracolsep{0pt}}l*{3}{l}}
+\toprule
+ & $t$ & Log-normal   \\
+\midrule
+Parameters & $n\in\mathbb{R}_{>0} $  & $\mu \in\mathbb{R}$ , $\sigma\in\mathbb{R}_{>0}$    \\
+Support    & $x \in\mathbb{R}$ & $x \in\mathbb{R}_{>0}$   \\
+PDF        & $\frac{\Gamma \left(\frac{\ n+1\ }{ 2 } \right)} {\sqrt{\pi n\ }\ \Gamma \left(\frac{ n }{\ 2\ } \right)} \left(1 + \frac{x^2}{ n } \right)^{-\frac{\ n+1\ }{ 2 }}$ & $\frac{ 1 }{\ x\sigma\sqrt{2\pi\ }\ }\ \exp\left( - \frac{ \left( \ln x  - \mu\ \right)^2}{ 2 \sigma^2 } \right)$   \\
+CDF        & $\frac{\ 1\ }{ 2 } + x\ \Gamma \left( \frac{\ n+1\ }{ 2 } \right) \times $
+     & $\ \frac{\ 1\ }{2}\left[1 + \operatorname{erf}\left( \frac{\ \ln x - \mu\ }{\sigma\sqrt{2\ }} \right)\right] $   \\
+           & $ \frac{{ {}_{2}F_1 }\!\left(\frac{\ 1\ }{ 2 },\ \frac{\ n+1\ }{ 2 };\ \frac{ 3 }{\ 2\ };\ 
+           -\frac{~ x^2\ }{ n }\right)}  {\sqrt{\pi n}\ \Gamma \left(\frac{n}{ 2 }\right)}$
+     & $= \Phi\left(\frac{\ln(x) -\mu}{\sigma} \right)$\\
+Mean       & $\ 0\ $ for $\ n > 1\ $ & $\ \exp\left(\mu + \frac{\sigma^2}{2}\right)\ $ \\
+Median     & $\ 0\ $ & $\ \exp(\mu)\ $  \\
+Mode       & $\ 0\ $ & $\ \exp\left(\mu - \sigma^2\right)\ $   \\
+Variance   & $\frac{ n }{\ n-2\ }\ $ for $\ n > 2,$ & $\left[\exp(\sigma^2) - 1\right]\exp\left( 2\mu + \sigma^2\right )$   \\
+   & $\infty$ for $1 < n \le 2$ &   \\
+Skewness   & $0$ for $n > 3$ & $\left[\exp\left( \sigma^2 \right) + 2\right] \sqrt{\exp(\sigma^2) - 1}$   \\
+Ex. Kurtosis   & $\frac{ 6 }{n-4}$ for $n > 4, \infty$ for $2 < n \le 4$ & $1\exp\left(4\sigma^2 \right) + 2\exp\left(3\sigma^2 \right) + 3\exp\left(2\sigma^2 \right) - 6$   \\
+MGF        & does not exist & not determined by its moments  \\
+\bottomrule
+\end{tabular}
+\end{scriptsize}
+\begin{itemize}
+\begin{tiny}
+\item $n$ denote degrees of freedom.
+\item $\ {}_{2}F_1\!(\cdot,\cdot;\cdot;\cdot)\ $ is a particular instance of the hypergeometric function.
+\end{tiny}
+\end{itemize}
+}
+
+\end{table}
+\end{frame}
+
+
+\begin{frame}{Common distributions and their properties}
+\begin{table}
+%\vspace{-5mm}\centering
+{
+%\begin{tabular}{l*{5}{D{.}{.}{-1}}}
+\begin{footnotesize}
+\begin{tabular}{@{\extracolsep{4pt}}l*{4}{l}}
+\toprule
+ & $\Gamma$ & $\Gamma$  \\
+\midrule
+Parameters & $k > 0\in\mathbb{R}$ (shape), & $\alpha > 0\in\mathbb{R}$ (shape), &  \\
+           & $\theta > 0\in\mathbb{R}$ scale & $\beta > 0\in\mathbb{R}$ (rate) &  \\
+Support    & $x \in\mathbb{R}(0, \infty)$ & $x \in\mathbb{R}(0, \infty)$ &  \\
+           &  &  &  \\
+PDF        & $f(x)=\frac{1}{\Gamma(k) \theta^k} x^{k - 1} e^{-x/\theta}$ & $f(x)=\frac{\beta^\alpha}{\Gamma(\alpha)} x^{\alpha - 1} e^{-\beta x }$ &  \\
+CDF        & $F(x)=\frac{1}{\Gamma(k)} \gamma\left(k, \frac{x}{\theta}\right)$ & $F(x)=\frac{1}{\Gamma(\alpha)} \gamma(\alpha, \beta x)$ &  \\
+Mean       & $k \theta $ & $\frac{\alpha}{\beta}$ &  \\
+Median     & No simple closed form &  No simple closed form &  \\
+Mode       & $(k - 1)\theta \text{ for } k \geq 1$, $0 \text{ for } k < 1$ & $\frac{\alpha - 1}{\beta} \text{ for } \alpha \geq 1\text{, }0 \text{ for } \alpha < 1$ &  \\
+Variance   & $k \theta^2$ & $\frac{\alpha}{\beta^2}$ &  \\
+Skewness   & $\frac{2}{\sqrt{k}}$ & $\frac{2}{\sqrt{\alpha}}$ &  \\
+Ex. Kurtosis   & $\frac{6}{k}$ & $\frac{6}{\alpha}$ &  \\
+MGF        & $(1 - \theta t)^{-k} \text{ for } t < \frac{1}{\theta}$ & $\left(1 - \frac{t}{\beta}\right)^{-\alpha} \text{ for } t < \beta$ &  \\
+\bottomrule
+\end{tabular}
+\end{footnotesize}
+\begin{itemize}
+\begin{tiny}
+\item $\Gamma(z) = \int_0^\infty t^{z-1} e^{-t}\text{ d}t, \qquad \Re(z) > 0$, for complex numbers with a positive real part.
+\item lower incomplete gamma function is $\gamma(s,x) = \int_0^x t^{s-1}\,e^{-t}\, dt$, for complex numbers with a positive real part.
+\end{tiny}
+\end{itemize}
+}
+
+\end{table}
+\end{frame}
+
+\begin{frame}{Common distributions and their properties}
+\begin{table}
+%\vspace{-5mm}
+\centering
+{
+%\begin{tabular}{l*{5}{D{.}{.}{-1}}}
+\begin{footnotesize}
+\begin{tabular}{@{\extracolsep{4pt}}l*{4}{l}}
+\toprule
+ & $\chi^2$ & $F$ \\
+\midrule
+Parameters & $n\in\mathbb{N}_{>0}$  & $n_1$, $n_2\in\mathbb{N}_{>0}$    \\
+Support    & $x\in\mathbb{R}_{>0}\;$ if $n = 1,$   & $x\in\mathbb{R}_{>0}\;$ if $n_1 = 1$,    \\
+           &  else $x \in\mathbb{R}_{\geq0}$    & else $x \in\mathbb{R}_{\geq0}$   \\
+PDF        & $\frac{1}{2^{n/2}\Gamma(n/2)}\; x^{n/2-1} e^{-x/2}\; $  & $n_1^{\frac{n_1}{2}} n_2^{\frac{n_2}{2}}  \frac{\Gamma (\frac{n_1+n_2}{2})}{\Gamma (\frac{n_1}{2}) \Gamma (\frac{n_2}{2})}  \frac{x^{\frac{n_1}{2}-1}}{(n_1x+n_2)^\frac{n_1+n_2}{2}}$    \\
+CDF        &  $\frac{1}{\Gamma(n/2 )} \; \gamma\left(\frac{n}{2},\,\frac{x}{2}\right)\;$  &  $I\left(\frac{n_1 x}{n_1 x + n_2},\,\tfrac{n_1}{2}, \tfrac{n_2}{2} \right)$   \\
+Mean       & $n$  &  $\frac{n_2}{n_2-2}\!$ for $n_2 > 2$    \\
+Median     &   No simple closed form & No simple closed form     \\
+Mode       &   $\max(n-2,0)\;$ & $\frac{n_1-2}{n_1}\;\frac{n_2}{n_2+2}$ for $n_1 > 2$    \\
+Variance   &   $2n\;$ & $\frac{2\,n_2^2\,(n_1+n_2-2)}{n_1 (n_2-2)^2 (n_2-4)}\!$ for $n_2 > 4$     \\
+Skewness   &  $\sqrt{8/n}\,$  & $\frac{(2 n_1 + n_2 - 2) \sqrt{8 (n_2-4)}}{(n_2-6) \sqrt{n_1 (n_1 + n_2 -2)}}\!$for $n_2 > 6$    \\
+Ex. Kurtosis   &  $\frac{12}{n}$ & $12\frac{n_1(5n_2-22)(n_1+n_2-2)+(n_2-4)(n_2-2)^2}{n_1(n_2-6)(n_2-8)(n_1+n_2-2)}$ for $n_2>8$ \\
+MGF        &    $(1-2t)^{-n/2} \text{ for } t < \frac{1}{2}\;$ & does not exist    \\
+\bottomrule
+\end{tabular}
+\end{footnotesize}
+\begin{itemize}
+\begin{tiny}
+\item $n, n_1, n_2$ known as degrees of freedom.
+\item Regularized incomplete beta function $I(x,a,b) = \frac{B(x,\,a,b)}{B(a,b)}$ with $B(x,\,a,b) = \int_0^x t^{a-1}\,(1-t)^{b-1}\,dt.$
+\end{tiny}
+\end{itemize}
+}
+
+\end{table}
+\end{frame}
+
+
+
+\begin{frame}{Common distributions and their properties}
+\begin{table}
+%\vspace{-5mm}\centering
+{
+%\begin{tabular}{l*{5}{D{.}{.}{-1}}}
+\begin{scriptsize}
+\begin{tabular}{@{\extracolsep{4pt}}l*{4}{l}}
+\toprule
+ & $B$ &   \\
+\midrule
+Parameters & $\alpha, \beta\in\mathbb{R}_{>0}$  & \\
+Support    & $x\in[0, 1]\!$ or $x \in (0, 1)\!$ &  \\
+PDF        & $\frac{x^{\alpha-1}(1-x)^{\beta-1}} {B(\alpha,\beta)}\!$ &    \\
+CDF        & $I(x,\,\alpha,\beta)\!$ &  &  \\
+Mean       & $\frac{\alpha}{\alpha+\beta}\!$ &  \\
+Median     & $\begin{matrix}I_{\frac{1}{2}}^{[-1]}(\alpha,\beta)\approx \frac{ \alpha - \tfrac{1}{3} }{ \alpha + \beta - \tfrac{2}{3} }\text{ for }\alpha, \beta >1\end{matrix}$  &  \\
+Mode       & $^*$ & \\
+Variance   & $\frac{\alpha\beta}{(\alpha+\beta)^2(\alpha+\beta+1)}\!$ &    \\
+Skewness   & $\frac{2\,(\beta-\alpha)\sqrt{\alpha+\beta+1}}{(\alpha+\beta+2)\sqrt{\alpha\beta}}$ &    \\
+Ex. Kurtosis   & $\frac{6[(\alpha - \beta)^2 (\alpha +\beta + 1) - \alpha \beta (\alpha + \beta + 2)]}{\alpha \beta (\alpha + \beta + 2) (\alpha + \beta + 3)}$  &  \\
+MGF        & $1  +\sum_{k=1}^\infty \left( \prod_{r=0}^{k-1} \frac{\alpha+r}{\alpha+\beta+r} \right) \frac{t^k}{k!}$ & &  \\
+\bottomrule
+\end{tabular}
+\end{scriptsize}
+\begin{itemize}
+\begin{tiny}
+\item $B(\alpha,\beta) = \frac{\Gamma(\alpha)\Gamma(\beta)}{\Gamma(\alpha + \beta)}$ and $\Gamma$ is the Gamma function.
+\item $\Gamma(z) = \int_0^\infty t^{z-1} e^{-t}\text{ d}t, \qquad \Re(z) > 0$, for complex numbers with a positive real part.
+\item Regularized incomplete beta function $I(x,\,a,b) = \frac{B(x,\,a,b)}{B(a,b)}$ with $B(x,\,a,b) = \int_0^x t^{a-1}\,(1-t)^{b-1}\,dt.$
+\item  $^*\frac{\alpha-1}{\alpha+\beta-2}\, \text{for}\,\alpha, \beta > 1; \text{any value in} (0,1)\, \text{for }\,\alpha, \beta = 1; \{0, 1\}\, \text{(bimodal)}\, \text{for }\,\alpha, \beta < 1; 0\, \text{for }\,\alpha \leq 1, \beta > 1; 1\, \text{for }\,\alpha > 1, \beta \leq 1.$
+\end{tiny}
+\end{itemize}
+}
+
+\end{table}
+\end{frame}
+
+
 
 
 \begin{frame}[t,allowframebreaks

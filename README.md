@@ -12,7 +12,7 @@
 
 - [Simplifying Linear Regressions using Frisch-Waugh-Lowell](https://github.com/listoflistoflist/econometricks/blob/main/trick%205/trick05.pdf)
 
-- [Maximum Likelihood Estimation] (https://github.com/listoflistoflist/econometricks/blob/main/trick%206/trick06.pdf)
+- [Maximum Likelihood Estimation](https://github.com/listoflistoflist/econometricks/blob/main/trick%206/trick06.pdf)
 
 - [Generalized Method of Moments](https://github.com/listoflistoflist/econometricks/blob/main/trick%207/trick07.pdf)
 

@@ -1,1 +1,4 @@
 \babel@toc {english}{}\relax 
+\beamer@sectionintoc {1}{From Probability to Likelihood}{3}{0}{1}
+\beamer@sectionintoc {2}{The Econometric Model}{7}{0}{2}
+\beamer@sectionintoc {3}{Properties of the Maximum Likelihood Estimator}{16}{0}{3}

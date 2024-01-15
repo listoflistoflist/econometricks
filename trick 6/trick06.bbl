@@ -9,8 +9,17 @@
 \fi
 \begin{thebibliography}{}
 
+\harvarditem[Cameron and Trivedi]{Cameron and Trivedi}{2005}{Cameron2005}
+\textsc{Cameron, A.~C.,  {\small and} P.~K. Trivedi}  (2005):
+  \emph{Microeconometrics: Methods and Applications}. Cambridge University
+  Press, 3 edn., Section 4.1--4.5, 4.8--4.9.
+
 \harvarditem[Greene]{Greene}{2011}{Greene2012}
 \textsc{Greene, W.~H.}  (2011): \emph{Econometric Analysis}. Prentice Hall, 5
   edn.
+
+\harvarditem[Pishro‐Nik]{Pishro‐Nik}{2014}{Pishro2014}
+\textsc{Pishro‐Nik, H.}  (2014): \emph{Introduction to Probability,
+  Statistics, and Random Processes}. Kappa Research LLC.
 
 \end{thebibliography}

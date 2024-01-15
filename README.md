@@ -12,13 +12,17 @@
 
 - [Simplifying Linear Regressions using Frisch-Waugh-Lowell](https://github.com/listoflistoflist/econometricks/blob/main/trick%205/trick05.pdf)
 
-- Maximum Likelihood Estimation
+- [Maximum Likelihood Estimation] (https://github.com/listoflistoflist/econometricks/blob/main/trick%206/trick06.pdf)
 
 - [Generalized Method of Moments](https://github.com/listoflistoflist/econometricks/blob/main/trick%207/trick07.pdf)
 
 **Short Stata programs with tricks and tips:**
 
-- [Monte carlo simulation for law of large numbers](https://github.com/listoflistoflist/econometricks/blob/main/trick%204/code/mc_distribution_error.do)
+- [Monte carlo simulation for law of large numbers & central limit theorem (OLS)](https://github.com/listoflistoflist/econometricks/blob/main/trick%204/code/mc_sampling_distribution_OLS_slope.do)
+
+- [Monte carlo simulation for law of large numbers & central limit theorem (Bernoulli trial)](https://github.com/listoflistoflist/econometricks/blob/main/trick%206/code/mc_sampling_distribution_bernoulli.do)
+
+- [Monte carlo simulation for likelihood and log-likelihood for Bernoulli trials](https://github.com/listoflistoflist/econometricks/blob/main/trick%206/code/mc_bernoulli_likelihood.do)
 
 - [Monte carlo simulation for efficient GMM estimation](https://github.com/listoflistoflist/econometricks/blob/main/trick%207/code/gmm.do)
 

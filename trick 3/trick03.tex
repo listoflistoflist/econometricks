@@ -55,9 +55,9 @@
 
 % set the title and the author
 \vskip14pt
-\parbox[top][1.35cm][c]{11cm}{\LARGE\color{text-grey}\inserttitle \\[1ex] \small \insertsubtitle \\[3ex]}
+\parbox[top][1.35cm][c]{11cm}{\LARGE\color{text-grey} Econome\textcolor{red1}{tricks}: \inserttitle \\[1ex] \small \quad \\[3ex]}
 \vskip11pt
-\parbox[top][1.35cm][c]{11cm}{\small \insertauthor \; \insertinstitute \\[2ex] \insertdate}
+\parbox[top][1.35cm][c]{11cm}{\small Trick 03: \insertsubtitle \\[2ex] \insertauthor \\[1ex]}
 }
 %%% end title page
 
@@ -116,41 +116,28 @@
 \definecolor{blue1}{RGB}{16, 118, 208}
 \definecolor{gray1}{RGB}{117, 115, 115}
 \usepackage{hyperref}
+
+
+\newtheorem{proposition}{Proposition}
+\newtheorem{assumption}{Definition}
+
+\title[]{Short guides to econometrics}
+\subtitle[]{Review of Distribution Theory}
+\author[]{\textcolor{gray1}{Davud Rostam-Afschar (Uni Mannheim)}}
+\date[]{\today}
+\subject{Econometrics}
+\renewcommand{\footlinetext}{\insertshortinstitute, \insertshorttitle, \insertshortdate}
 \hypersetup{
     bookmarks=false,
     unicode=false,
     pdftoolbar=false,
     pdffitwindow=true,
-    pdftitle={Econometricks: Short guides to econometrics},
+    pdftitle={Short Guides to Econometrics:  Distribution Theory},
     pdfauthor={Davud Rostam-Afschar},
-    pdfsubject={econometrics},
-    pdfcreator={Davud Rostam-Afschar},
-    pdfproducer={Davud Rostam-Afschar},
-    pdfkeywords={econometrics},
+    pdfsubject={Distribution Theory},
+    pdfkeywords={joint and marginal bivariate distributions, joint density function, joint cumulative density function, marginal probability density, covariance and correlation, conditional density function, conditional mean aka regression, bivariate normal, useful rules},
     pdfnewwindow=true,
 }
-
-\newtheorem{proposition}{Proposition}
-\newtheorem{assumption}{Definition}
-
-\title[] 
-{Econome\textcolor{red1}{tricks}: Short guides to econometrics\\[1ex]\normalsize 
-}
-
-%\subtitle
-%{Empirical Evidence from a Life Cycle Model\\[4ex]}
-
-
-\author[D. Rostam-Afschar]{Trick 03: Review of Distribution Theory\\[2ex]}
-
-\institute[]{\textcolor{gray1}{Davud Rostam-Afschar (Uni Mannheim)}}
-            
-\date[] 
-{}
-
-\subject{Econometrics}
-\renewcommand{\footlinetext}{\insertshortinstitute, \insertshorttitle, \insertshortdate}
-
 \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
 
 \begin{document}

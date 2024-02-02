@@ -1,4 +1,4 @@
-\babel@toc {english}{}\relax 
+\babel@toc {english}{}
 \beamer@sectionintoc {1}{The normal distribution}{7}{0}{1}
 \beamer@sectionintoc {2}{Method of transformations}{8}{0}{2}
 \beamer@sectionintoc {3}{The $\chi ^2$ distribution}{13}{0}{3}

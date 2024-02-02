@@ -6,44 +6,44 @@ The style file: Econometrica.bst
 Reallocating 'name_of_file' (item size: 1) to 4 items.
 Database file #1: bib.bib
 Done.
-You've used 4 entries,
+You've used 5 entries,
             2327 wiz_defined-function locations,
-            544 strings with 4123 characters,
-and the built_in function-call counts, 1821 in all, are:
-= -- 184
-> -- 80
+            551 strings with 4199 characters,
+and the built_in function-call counts, 2198 in all, are:
+= -- 222
+> -- 95
 < -- 0
-+ -- 26
-- -- 24
-* -- 156
-:= -- 349
-add.period$ -- 5
-call.type$ -- 4
-change.case$ -- 22
-chr.to.int$ -- 4
-cite$ -- 4
-duplicate$ -- 68
-empty$ -- 123
-format.name$ -- 24
-if$ -- 349
++ -- 31
+- -- 28
+* -- 184
+:= -- 429
+add.period$ -- 7
+call.type$ -- 5
+change.case$ -- 28
+chr.to.int$ -- 5
+cite$ -- 5
+duplicate$ -- 85
+empty$ -- 149
+format.name$ -- 30
+if$ -- 422
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 5
-newline$ -- 24
-num.names$ -- 24
-pop$ -- 18
+missing$ -- 7
+newline$ -- 27
+num.names$ -- 30
+pop$ -- 25
 preamble$ -- 1
-purify$ -- 22
+purify$ -- 27
 quote$ -- 0
-skip$ -- 63
+skip$ -- 76
 stack$ -- 0
-substring$ -- 108
-swap$ -- 11
+substring$ -- 119
+swap$ -- 13
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 41
+type$ -- 49
 warning$ -- 0
-while$ -- 21
+while$ -- 26
 width$ -- 0
-write$ -- 59
+write$ -- 71

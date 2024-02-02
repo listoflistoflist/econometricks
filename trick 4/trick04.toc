@@ -1,6 +1,6 @@
 \babel@toc {english}{}
 \beamer@sectionintoc {1}{What is the Relationship between Two Variables?}{3}{0}{1}
-\beamer@sectionintoc {2}{The Econometric Model}{9}{0}{2}
-\beamer@sectionintoc {3}{Estimation with OLS}{56}{0}{3}
-\beamer@sectionintoc {4}{Properties of the OLS Estimator in the Small and in the Large}{88}{0}{4}
-\beamer@sectionintoc {5}{Politically Connected Firms: Causality or Correlation?}{238}{0}{5}
+\beamer@sectionintoc {2}{The Econometric Model}{5}{0}{2}
+\beamer@sectionintoc {3}{Estimation with OLS}{19}{0}{3}
+\beamer@sectionintoc {4}{Properties of the OLS Estimator in the Small and in the Large}{32}{0}{4}
+\beamer@sectionintoc {5}{Politically Connected Firms: Causality or Correlation?}{56}{0}{5}

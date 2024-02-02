@@ -1,4 +1,4 @@
-*This post was written jointly with Enrique Pinzon, Senior Econometrician, StataCorp. https://blog.stata.com/2015/12/03/understanding-the-generalized-method-of-moments-gmm-a-simple-example/
+*Based on blog post by David Drukker and Enrique Pinzon, Senior Econometrician, StataCorp. https://blog.stata.com/2015/12/03/understanding-the-generalized-method-of-moments-gmm-a-simple-example/
 
 *The generalized method of moments (GMM) is a method for constructing estimators, analogous to maximum likelihood (ML). GMM uses assumptions about specific moments of the random variables instead of assumptions about the entire distribution, which makes GMM more robust than ML, at the cost of some efficiency. The assumptions are called moment conditions.
 

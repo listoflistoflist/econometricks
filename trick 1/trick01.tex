@@ -51,13 +51,18 @@
 %%% begin title page
 \setbeamertemplate{title page}{
 \vskip2pt\hfill
-\vskip6pt\hskip3pt
+\vskip19pt\hskip3pt
 
 % set the title and the author
-\vskip14pt
-\parbox[top][1.35cm][c]{11cm}{\LARGE\color{text-grey}\inserttitle \\[1ex] \small \insertsubtitle \\[3ex]}
-\vskip11pt
-\parbox[top][1.35cm][c]{11cm}{\small \insertauthor \; \insertinstitute \\[2ex] \insertdate}
+\vskip4pt
+\parbox[top][1.35cm][c]{11cm}{\LARGE\color{text-grey} Econome\textcolor{red1}{tricks}: \inserttitle \\[1ex] \small \quad \\[3ex]}
+\vskip17pt
+\parbox[top][1.35cm][c]{11cm}{\small Trick 01: \insertsubtitle \\[2ex] \insertauthor \\[1ex]}
+%insert meta data
+\tiny \textcolor{white}{\insertdate}\\
+\textcolor{white}{Description:}\\
+\textcolor{white}{This guide introduces basic concepts of probability theory.}
+
 }
 %%% end title page
 
@@ -114,30 +119,28 @@
 \definecolor{blue1}{RGB}{16, 118, 208}
 \definecolor{gray1}{RGB}{117, 115, 115}
 \usepackage{hyperref}
+
+
+\newtheorem{proposition}{Proposition}
+\newtheorem{assumption}{Definition}
+
+\title[]{Short guides to econometrics}
+\subtitle[]{Review of Probability Theory}
+\author[D. Rostam-Afschar]{\textcolor{gray1}{Davud Rostam-Afschar (Uni Mannheim)}}
+\date[]{\today}
+\subject{Econometrics}
+\renewcommand{\footlinetext}{\insertshortinstitute, \insertshorttitle, \insertshortdate}
 \hypersetup{
     bookmarks=false,
     unicode=false,
     pdftoolbar=false,
     pdffitwindow=true,
-    pdftitle={Econometricks: Short guides to econometrics},
+    pdftitle={Short Guides to Econometrics: Probability Theory},
     pdfauthor={Davud Rostam-Afschar},
-    pdfsubject={econometrics},
-    pdfcreator={Davud Rostam-Afschar},
-    pdfproducer={Davud Rostam-Afschar},
-    pdfkeywords={econometrics},
+    pdfsubject={Probability Theory},
+    pdfkeywords={probability theory, probability fundamentals, mean and variance, moments of a random variable, useful rules},
     pdfnewwindow=true,
 }
-
-\newtheorem{proposition}{Proposition}
-\newtheorem{assumption}{Definition}
-
-\title[]{Econome\textcolor{red1}{tricks}: Short guides to econometrics}
-\author[D. Rostam-Afschar]{Trick 01: Review of Probability Theory}
-\institute[]{\textcolor{gray1}{Davud Rostam-Afschar (Uni Mannheim)}}
-\date[]{}
-\subject{Econometrics}
-\renewcommand{\footlinetext}{\insertshortinstitute, \insertshorttitle, \insertshortdate}
-
 \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
 
 \begin{document}
@@ -164,8 +167,8 @@ not countable.
 \end{minipage}
 \hspace{10pt}
 \begin{minipage}{0.35\linewidth}\centering
-{\includegraphics[width=1\textwidth]{binomial_pdf}}
-{\includegraphics[width=1\textwidth]{normal_pdf}}
+{\includegraphics[width=1\textwidth]{figures/binomial_pdf}}
+{\includegraphics[width=1\textwidth]{figures/normal_pdf}}
 \end{minipage}
 \end{frame}
 
@@ -249,8 +252,8 @@ and $$1-F(x)=F(-x).$$
 \begin{figure}[H]
 \begin{center}
 %\scalebox{.36}
-{\includegraphics[height=0.45\textheight]{normal_pdf_sym}}\label{normal_pdf_sym}
-{\includegraphics[height=0.45\textheight]{normal_cdf_sym}}\label{normal_cdf_sym}
+{\includegraphics[height=0.45\textheight]{figures/normal_pdf_sym}}\label{normal_pdf_sym}
+{\includegraphics[height=0.45\textheight]{figures/normal_cdf_sym}}\label{normal_cdf_sym}
 \end{center}
 \end{figure}
 \end{frame}
@@ -354,7 +357,7 @@ If $x$ is normally distributed, the bound is $1-(2\Phi(k)-1)$.
 \begin{figure}[H]
 \begin{center}
 %\scalebox{.36}
-{\includegraphics[height=0.55\textheight]{chebyshev_inequality_pdf}}\label{chebyshev_inequality_pdf}
+{\includegraphics[height=0.55\textheight]{figures/chebyshev_inequality_pdf}}\label{chebyshev_inequality_pdf}
 \end{center}
 \end{figure}
 95\% of the observations are within 1.96 standard deviations for normally distributed $x$. If $x$ is not normal, 95\% are at most within 4.47 standard deviations.
@@ -365,7 +368,7 @@ If $x$ is normally distributed, the bound is $1-(2\Phi(k)-1)$.
 \begin{frame}{Normal coverage}
 \begin{figure}
 	\centering
-		\includegraphics[width=0.70\textwidth]{Standard_deviation_diagram.png}
+		\includegraphics[width=0.70\textwidth]{figures/Standard_deviation_diagram.png}
 	\label{fig:Standard_deviation_diagram}
 \end{figure}
 
@@ -395,7 +398,7 @@ The skewness is zero for symmetric distributions.
 \begin{frame}{Higher order moments}
 \begin{figure}[H]
 \begin{center}
-{\includegraphics[width=0.7\textwidth]{skewness_kurtosis}}\label{skewness_kurtosis}
+{\includegraphics[width=0.7\textwidth]{figures/skewness_kurtosis}}\label{skewness_kurtosis}
 \end{center}
 \end{figure}
 \end{frame}
@@ -475,7 +478,7 @@ $E[g(x)]$ and $Var[g(x)]$ can be approximated by a first order linear Taylor ser
 \begin{frame}{Taylor approximation Order 1}
 \begin{figure}
 	\centering
-		\includegraphics[width=0.90\textwidth]{taylor1_formula.png}
+		\includegraphics[width=0.90\textwidth]{figures/taylor1_formula.png}
 	\label{fig:taylor1_formula}
 \end{figure}
 \tiny Thanks to Shiyu Chang
@@ -646,7 +649,7 @@ $c_{bad}=$	10.00 Euro; $c_{good}=$	100.00 Euro;  probability good outcome	50\%; 
 \begin{wrapfigure}{r}{0.5\textwidth}
   \vspace{-20pt}
   \begin{center}
-		\includegraphics[height=0.46\textheight]{Jensens_inequality.png}
+		\includegraphics[height=0.46\textheight]{figures/Jensens_inequality.png}
 	\label{fig:Jensens_inequality}
   \vspace{-40pt}
   \end{center}

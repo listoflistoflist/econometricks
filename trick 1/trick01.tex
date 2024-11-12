@@ -311,7 +311,7 @@ The continuous uniform distribution is $1/(b-a)$ for $a\leq x\leq b$ and $0$ oth
 $$E[x]={\int_{a}^b\frac{x}{b-a}dx}={\frac{1}{b-a}\int_{a}^bxdx}.$$
 
 Antiderivative of $x$ is $x^2/2$
-$$E[x]={\frac{1}{b-a} b^2/2-a^2/2}=\frac{(b-a)(b+a)}{2(b-a)}=\frac{a+b}{2}.$$
+$$E[x]={\frac{1}{b-a} (b^2/2-a^2/2)}=\frac{(b-a)(b+a)}{2(b-a)}=\frac{a+b}{2}.$$
 
 
 The mean (and the median) is again $(a+b)/2=3.5$.
@@ -349,8 +349,8 @@ $$V[x] = E[x^{2}] - (E[x])^2.$$
 
 \begin{frame}{Chebychev inequality}
 
-For any random variable $x$ and any positive constant $k$,
-$$\Pr(\mu - k\sigma \leq x \leq \mu + k\sigma) \geq \frac{1}{k^{2}}.$$
+For any random variable $x$ and any positive constant $k>1$,
+$$\Pr(\mu - k\sigma < x < \mu + k\sigma) \geq 1-\frac{1}{k^{2}}.$$
 \footnotesize
 \textbf{Share outside $k$ standard deviations}.\\
 If $x$ is normally distributed, the bound is $1-(2\Phi(k)-1)$.
@@ -425,7 +425,7 @@ If $x$ and $y$ are independent, then the MGF of $x + y$ is $M_{x}(t)M_{y}(t).$
 
 \begin{frame}{Moment generating function}
 \small
-For $x \sim N (\mu, \sigma^2)$ for some $\mu,\sigma>0$ with moment generating function ${M_x}'(t) =  \exp (\mu t + \dfrac 1 2 \sigma^2 t^2)$, the first moment generating function of $x$ is
+For $x \sim N (\mu, \sigma^2)$ for some $\mu,\sigma>0$ with moment generating function ${M_x}(t) =  \exp (\mu t + \dfrac 1 2 \sigma^2 t^2)$, the first moment generating function of $x$ is
 $$ E[(x - \mu)^{1}]={M_x}'(t)= (\mu +  \sigma^2 t)\exp \bigg(\mu t + \dfrac 1 2 \sigma^2 t^2\bigg).$$
 \small
 \begin{example}

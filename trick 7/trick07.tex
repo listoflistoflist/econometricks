@@ -176,7 +176,7 @@
 \small
 The overidentified GMM estimator $\hat{\theta}_{GMM}(W_n)$ for $K$ parameters in $\theta$ identified by $L>K$ moment conditions is a function of the weighting matrix $W_n$ for a sample of $i=1,...,n$ observations:
 
-$$\hat{\theta}_{GMM}(W_n)=\min_\theta q_n(\theta),$$
+$$\hat{\theta}_{GMM}(W_n)=\underset{\theta}{\operatorname{argmin}} q_n(\theta),$$
 
 where the quadratic form $q_n(\theta)$ is the criterion function and is given as a function of the sample moments $\bar{m}_n(\theta)$
 $$q_n(\theta)=\bar{m}_n(\theta)'W\bar{m}_n(\theta).$$
@@ -288,7 +288,7 @@ $$\bar{G}_n(\hat{\theta}_{GMM})'W_n\bar{m}_n(\theta_0)+\bar{G}_n(\hat{\theta}_{G
 which we rearrange to get the very useful
 
 $$\hat{\theta}_{GMM}\approx \theta_0-(\bar{G}_n(\hat{\theta}_{GMM})'W_n\bar{G}_n(\bar{\theta}))^{-1}\bar{G}_n(\hat{\theta}_{GMM})'W_n\bar{m}_n(\theta_0).$$
-So the estimate $\hat{\theta}_{GMM}$ is approximately the true parameter $\theta_0$ plus an sampling error that depends on the sample moment $\bar{m}_n(\theta_0)$.
+So the estimate $\hat{\theta}_{GMM}$ is approximately the true parameter $\theta_0$ plus a sampling error that depends on the sample moment $\bar{m}_n(\theta_0)$.
 %$$\sqrt{n}(\hat{\theta}_{GMM}-\theta_0)\approx -(\bar{G}_n(\hat{\theta}_{GMM})'W\bar{G}_n(\bar{\theta}))^{-1}\bar{G}_n(\hat{\theta}_{GMM})'W\sqrt{n}\bar{m}_n(\theta_0),$$
 
 \end{frame}
@@ -299,7 +299,7 @@ So the estimate $\hat{\theta}_{GMM}$ is approximately the true parameter $\theta
 
 Useful approximation
 $$\underset{\scriptscriptstyle K\times1}{\hat{\theta}_{GMM}}\approx \underset{\scriptscriptstyle K\times1}{\theta_0}-(\underset{\scriptscriptstyle K\times L}{\bar{G}_n(\hat{\theta}_{GMM})'}\underset{\scriptscriptstyle L\times L}{W_n}\underset{\scriptscriptstyle L\times K}{\bar{G}_n(\bar{\theta})})^{-1}\underset{\scriptscriptstyle K\times L}{\bar{G}_n(\hat{\theta}_{GMM})'}\underset{\scriptscriptstyle L\times L}{W_n}\underset{\scriptscriptstyle L\times1}{\bar{m}_n(\theta_0)}.$$
-So the estimate $\hat{\theta}_{GMM}$ is approximately the true parameter $\theta_0$ plus an sampling error that depends on the sample moment $\bar{m}_n(\theta_0)$.
+So the estimate $\hat{\theta}_{GMM}$ is approximately the true parameter $\theta_0$ plus a sampling error that depends on the sample moment $\bar{m}_n(\theta_0)$.
 
 
 \end{frame}
@@ -342,7 +342,7 @@ The data meets the conditions for a law of large numbers to apply, so that we ma
 \begin{frame}{Three assumptions: central limit theorem}
 \begin{assumption} \textbf{GMM3: Central Limit Theorem Applies}. 
 $$\sqrt{n}\bar{m}_n(\theta)=\sqrt{n}/n\sum_{i=1}^{N}m(X_i,Z_i,\theta_0)\overset{d}{\to}N[0,\Phi].$$
-The empirical moments obey a central limit theorem. This assumes that the moments have a finite asymptotic covariance matrix.
+The empirical moments obey a central limit theorem. This assumes that the moments have a finite asymptotic covariance matrix $E[m(X_i,Z_i,\theta_0)m(X_i,Z_i,\theta_0)']=\Phi$.
 \end{assumption}
 
 \end{frame}
@@ -497,12 +497,12 @@ $$V_{GMM,optimal}=1/n[\Gamma(\theta_0)'\Phi^{-1}\Gamma(\theta_0)]^{-1}$$
 \end{frame}
 
 \begin{frame}{Estimate the variance in practice}
-$$\hat{V}_{GMM,optimal}=1/n[\Gamma(\theta_0)'\Phi_n^{-1}\Gamma(\theta_0)]^{-1}$$
+$$\hat{V}_{GMM,optimal}=1/n[\bar{G}_n(\hat{\theta})'\Phi_n^{-1}\bar{G}_n(\hat{\theta})]^{-1}$$
 
 Consistent estimator
-$$\Phi_n=NV(\bar{m}_n(\theta))$$
+$$\Phi_n=NV(\bar{m}_n(\hat{\theta}))$$
 
-$$\bar{G}_n(\bar{\theta})=\frac{\partial m(X_i,Z_i,\hat{\theta})}{\partial \hat{\theta}'}$$
+$$\bar{G}_n(\hat{\theta})=\frac{\partial m(X_i,Z_i,\hat{\theta})}{\partial \hat{\theta}'}$$
 
 \end{frame}
 

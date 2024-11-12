@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.30)  16 JAN 2024 18:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.30)  15 OCT 2024 10:03
 entering extended mode
 **./trick05.tex
 (trick05.tex
@@ -1583,10 +1583,10 @@ Overfull \vbox (5.7783pt too high) detected at line 478
 <figures/projection.png, id=135, 378.66469pt x 486.31688pt>
 File: figures/projection.png Graphic file (type png)
 <use figures/projection.png>
-Package pdftex.def Info: figures/projection.png  used on input line 513.
-(pdftex.def)             Requested size: 99.87021pt x 128.26486pt.
+Package pdftex.def Info: figures/projection.png  used on input line 523.
+(pdftex.def)             Requested size: 108.19061pt x 138.95052pt.
 
-Overfull \vbox (8.22563pt too high) detected at line 513
+Overfull \vbox (10.91129pt too high) detected at line 523
  []
 
 [15
@@ -1596,7 +1596,7 @@ Overfull \vbox (8.22563pt too high) detected at line 513
 ] [17
 
 ]
-Overfull \vbox (0.3617pt too high) detected at line 628
+Overfull \vbox (0.3617pt too high) detected at line 638
  []
 
 [18
@@ -1627,18 +1627,15 @@ Package rerunfilecheck Info: File `trick05.out' has not changed.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 27322 strings out of 479799
- 533703 string characters out of 2877698
+ 27348 strings out of 479799
+ 534339 string characters out of 2877698
  1024644 words of memory out of 3000000
- 43536 multiletter control sequences out of 15000+200000
+ 43561 multiletter control sequences out of 15000+200000
  571540 words of font info for 137 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 125i,16n,126p,1332b,576s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 125i,16n,126p,1332b,840s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\drost\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/public/concmath-fon
 ts/dpi600\xccsy7.pk> <C:\Users\drost\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/j
 knappen/ec/dpi600\ecso1000.pk> <C:\Users\drost\AppData\Local\MiKTeX\2.9\fonts/p
@@ -1671,9 +1668,9 @@ s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi12.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmssi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/amsfonts/symbols/msam10.pfb>
-Output written on trick05.pdf (20 pages, 256494 bytes).
+Output written on trick05.pdf (20 pages, 258852 bytes).
 PDF statistics:
- 340 PDF objects out of 1000 (max. 8388607)
- 53 named destinations out of 1000 (max. 500000)
+ 343 PDF objects out of 1000 (max. 8388607)
+ 54 named destinations out of 1000 (max. 500000)
  80 words of extra memory for PDF output out of 10000 (max. 10000000)
 

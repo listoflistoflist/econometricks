@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.30)  6 NOV 2024 16:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.30)  13 NOV 2024 17:00
 entering extended mode
 **./trick03.tex
 (trick03.tex
@@ -1743,12 +1743,7 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10> not available
 \tf@snm=\write8
 \openout8 = `trick03.snm'.
 
- (trick03.aux
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
+ (trick03.aux)
 Package rerunfilecheck Info: File `trick03.out' has not changed.
 (rerunfilecheck)             Checksum: 7F8621C54B4F11D59FAD531BC7DD589E;620.
 
@@ -1790,7 +1785,7 @@ fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/P
 rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi9.pfb><C:/Program F
 iles/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on trick03.pdf (29 pages, 503003 bytes).
+Output written on trick03.pdf (29 pages, 503008 bytes).
 PDF statistics:
  407 PDF objects out of 1000 (max. 8388607)
  76 named destinations out of 1000 (max. 500000)

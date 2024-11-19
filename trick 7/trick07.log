@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.30)  6 NOV 2024 16:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.30)  18 NOV 2024 15:15
 entering extended mode
 **./trick07.tex
 (trick07.tex
@@ -1645,7 +1645,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  27295 strings out of 479799
  533223 string characters out of 2877698
- 1005644 words of memory out of 3000000
+ 1005639 words of memory out of 3000000
  43498 multiletter control sequences out of 15000+200000
  562256 words of font info for 114 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191

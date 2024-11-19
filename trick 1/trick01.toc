@@ -1,4 +1,4 @@
-\babel@toc {english}{}\relax 
+\babel@toc {english}{}
 \beamer@sectionintoc {1}{Probability fundamentals}{3}{0}{1}
 \beamer@sectionintoc {2}{Mean and variance}{9}{0}{2}
 \beamer@sectionintoc {3}{Moments of a random variable}{14}{0}{3}

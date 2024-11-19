@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.30)  2 FEB 2024 15:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.30)  18 NOV 2024 15:14
 entering extended mode
 **./trick04.tex
 (trick04.tex
@@ -1519,7 +1519,7 @@ LaTeX Font Info:    External font `xccex10' loaded for size
 (Font)              <7> on input line 250.
 LaTeX Font Info:    External font `xccex10' loaded for size
 (Font)              <5> on input line 250.
-<figures/politicallyconnected2.png, id=88, 1284.8pt x 934.49126pt>
+<figures/politicallyconnected2.png, id=87, 1284.8pt x 934.49126pt>
 File: figures/politicallyconnected2.png Graphic file (type png)
 <use figures/politicallyconnected2.png>
 Package pdftex.def Info: figures/politicallyconnected2.png  used on input line 
@@ -1528,7 +1528,7 @@ Package pdftex.def Info: figures/politicallyconnected2.png  used on input line
  [6
 
  <./figures/politicallyconnected2.png (PNG copy)>]
-<figures/politicallyconnected3.png, id=98, 1284.8pt x 934.49126pt>
+<figures/politicallyconnected3.png, id=97, 1284.8pt x 934.49126pt>
 File: figures/politicallyconnected3.png Graphic file (type png)
 <use figures/politicallyconnected3.png>
 Package pdftex.def Info: figures/politicallyconnected3.png  used on input line 
@@ -1682,7 +1682,7 @@ Overfull \vbox (11.55826pt too high) detected at line 458
 ] [20
 
 ]
-<figures/OLS1.png, id=203, 1284.8pt x 934.49126pt>
+<figures/OLS1.png, id=202, 1284.8pt x 934.49126pt>
 File: figures/OLS1.png Graphic file (type png)
 <use figures/OLS1.png>
 Package pdftex.def Info: figures/OLS1.png  used on input line 499.
@@ -1694,7 +1694,7 @@ Overfull \vbox (21.98239pt too high) detected at line 499
 [21
 
  <./figures/OLS1.png (PNG copy)>]
-<figures/OLS2.png, id=209, 1284.8pt x 934.49126pt>
+<figures/OLS2.png, id=208, 1284.8pt x 934.49126pt>
 File: figures/OLS2.png Graphic file (type png)
 <use figures/OLS2.png>
 Package pdftex.def Info: figures/OLS2.png  used on input line 505.
@@ -1706,7 +1706,7 @@ Overfull \vbox (21.98239pt too high) detected at line 505
 [22
 
  <./figures/OLS2.png (PNG copy)>]
-<figures/OLS3.png, id=215, 1284.8pt x 934.49126pt>
+<figures/OLS3.png, id=214, 1284.8pt x 934.49126pt>
 File: figures/OLS3.png Graphic file (type png)
 <use figures/OLS3.png>
 Package pdftex.def Info: figures/OLS3.png  used on input line 511.
@@ -1718,7 +1718,7 @@ Overfull \vbox (21.98239pt too high) detected at line 511
 [23
 
  <./figures/OLS3.png (PNG copy)>]
-<figures/OLS4.png, id=221, 1284.8pt x 934.49126pt>
+<figures/OLS4.png, id=220, 1284.8pt x 934.49126pt>
 File: figures/OLS4.png Graphic file (type png)
 <use figures/OLS4.png>
 Package pdftex.def Info: figures/OLS4.png  used on input line 517.
@@ -1730,7 +1730,7 @@ Overfull \vbox (21.98239pt too high) detected at line 517
 [24
 
  <./figures/OLS4.png (PNG copy)>]
-<figures/OLS5.png, id=227, 1284.8pt x 934.49126pt>
+<figures/OLS5.png, id=226, 1284.8pt x 934.49126pt>
 File: figures/OLS5.png Graphic file (type png)
 <use figures/OLS5.png>
 Package pdftex.def Info: figures/OLS5.png  used on input line 524.
@@ -1742,7 +1742,7 @@ Overfull \vbox (21.98239pt too high) detected at line 524
 [25
 
  <./figures/OLS5.png (PNG copy)>]
-<figures/Legendre.jpg, id=235, 321.2pt x 401.5pt>
+<figures/Legendre.jpg, id=234, 321.2pt x 401.5pt>
 File: figures/Legendre.jpg Graphic file (type jpg)
 <use figures/Legendre.jpg>
 Package pdftex.def Info: figures/Legendre.jpg  used on input line 548.
@@ -1750,7 +1750,7 @@ Package pdftex.def Info: figures/Legendre.jpg  used on input line 548.
  [26
 
  <./figures/Legendre.jpg>]
-<figures/Gauss_klein.jpg, id=243, 240.9pt x 301.125pt>
+<figures/Gauss_klein.jpg, id=242, 240.9pt x 301.125pt>
 File: figures/Gauss_klein.jpg Graphic file (type jpg)
 <use figures/Gauss_klein.jpg>
 Package pdftex.def Info: figures/Gauss_klein.jpg  used on input line 570.
@@ -1762,7 +1762,7 @@ Package pdftex.def Info: figures/Gauss_klein.jpg  used on input line 570.
 ] [29
 
 ]
-<figures/3d_cloud1.png, id=259, 1284.8pt x 934.49126pt>
+<figures/3d_cloud1.png, id=258, 1284.8pt x 934.49126pt>
 File: figures/3d_cloud1.png Graphic file (type png)
 <use figures/3d_cloud1.png>
 Package pdftex.def Info: figures/3d_cloud1.png  used on input line 629.
@@ -1779,7 +1779,7 @@ Overfull \vbox (11.51099pt too high) detected at line 629
 [30
 
  <./figures/3d_cloud1.png (PNG copy)>]
-<figures/3d_cloud2.png, id=266, 1284.8pt x 934.49126pt>
+<figures/3d_cloud2.png, id=265, 1284.8pt x 934.49126pt>
 File: figures/3d_cloud2.png Graphic file (type png)
 <use figures/3d_cloud2.png>
 Package pdftex.def Info: figures/3d_cloud2.png  used on input line 661.
@@ -1800,7 +1800,7 @@ Overfull \vbox (11.51099pt too high) detected at line 661
 ] [33
 
 ]
-<figures/SmallSample_empty.jpg, id=288, 527.72156pt x 305.64188pt>
+<figures/SmallSample_empty.jpg, id=286, 527.72156pt x 305.64188pt>
 File: figures/SmallSample_empty.jpg Graphic file (type jpg)
 <use figures/SmallSample_empty.jpg>
 Package pdftex.def Info: figures/SmallSample_empty.jpg  used on input line 712.
@@ -1813,7 +1813,7 @@ Overfull \vbox (3.38446pt too high) detected at line 712
 [34
 
  <./figures/SmallSample_empty.jpg>]
-<figures/SmallSample.jpg, id=295, 527.72156pt x 305.64188pt>
+<figures/SmallSample.jpg, id=293, 527.72156pt x 305.64188pt>
 File: figures/SmallSample.jpg Graphic file (type jpg)
 <use figures/SmallSample.jpg>
 Package pdftex.def Info: figures/SmallSample.jpg  used on input line 721.
@@ -1842,25 +1842,25 @@ Overfull \vbox (3.38446pt too high) detected at line 721
 ] [41
 
 ]
-<figures/distribution_beta1_3.png, id=336, 1284.8pt x 934.49126pt>
+<figures/distribution_beta1_3.png, id=334, 1284.8pt x 934.49126pt>
 File: figures/distribution_beta1_3.png Graphic file (type png)
 <use figures/distribution_beta1_3.png>
 Package pdftex.def Info: figures/distribution_beta1_3.png  used on input line 8
 72.
 (pdftex.def)             Requested size: 89.71733pt x 65.24995pt.
-<figures/distribution_beta1_5.png, id=337, 1284.8pt x 934.49126pt>
+<figures/distribution_beta1_5.png, id=335, 1284.8pt x 934.49126pt>
 File: figures/distribution_beta1_5.png Graphic file (type png)
 <use figures/distribution_beta1_5.png>
 Package pdftex.def Info: figures/distribution_beta1_5.png  used on input line 8
 72.
 (pdftex.def)             Requested size: 89.71733pt x 65.24995pt.
-<figures/distribution_beta1_10.png, id=338, 1284.8pt x 934.49126pt>
+<figures/distribution_beta1_10.png, id=336, 1284.8pt x 934.49126pt>
 File: figures/distribution_beta1_10.png Graphic file (type png)
 <use figures/distribution_beta1_10.png>
 Package pdftex.def Info: figures/distribution_beta1_10.png  used on input line 
 872.
 (pdftex.def)             Requested size: 89.71733pt x 65.24995pt.
-<figures/distribution_beta1_100.png, id=339, 1284.8pt x 934.49126pt>
+<figures/distribution_beta1_100.png, id=337, 1284.8pt x 934.49126pt>
 File: figures/distribution_beta1_100.png Graphic file (type png)
 <use figures/distribution_beta1_100.png>
 Package pdftex.def Info: figures/distribution_beta1_100.png  used on input line
@@ -1871,25 +1871,25 @@ Package pdftex.def Info: figures/distribution_beta1_100.png  used on input line
  <./figures/distribution_beta1_3.png (PNG copy)> <./figures/distribution_beta1_
 5.png (PNG copy)> <./figures/distribution_beta1_10.png (PNG copy)> <./figures/d
 istribution_beta1_100.png (PNG copy)>]
-<figures/sampling_error_beta1_3.png, id=353, 1284.8pt x 934.49126pt>
+<figures/sampling_error_beta1_3.png, id=351, 1284.8pt x 934.49126pt>
 File: figures/sampling_error_beta1_3.png Graphic file (type png)
 <use figures/sampling_error_beta1_3.png>
 Package pdftex.def Info: figures/sampling_error_beta1_3.png  used on input line
  916.
 (pdftex.def)             Requested size: 89.71733pt x 65.24995pt.
-<figures/sampling_error_beta1_5.png, id=354, 1284.8pt x 934.49126pt>
+<figures/sampling_error_beta1_5.png, id=352, 1284.8pt x 934.49126pt>
 File: figures/sampling_error_beta1_5.png Graphic file (type png)
 <use figures/sampling_error_beta1_5.png>
 Package pdftex.def Info: figures/sampling_error_beta1_5.png  used on input line
  916.
 (pdftex.def)             Requested size: 89.71733pt x 65.24995pt.
-<figures/sampling_error_beta1_10.png, id=355, 1284.8pt x 934.49126pt>
+<figures/sampling_error_beta1_10.png, id=353, 1284.8pt x 934.49126pt>
 File: figures/sampling_error_beta1_10.png Graphic file (type png)
 <use figures/sampling_error_beta1_10.png>
 Package pdftex.def Info: figures/sampling_error_beta1_10.png  used on input lin
 e 916.
 (pdftex.def)             Requested size: 89.71733pt x 65.24995pt.
-<figures/sampling_error_beta1_100.png, id=356, 1284.8pt x 934.49126pt>
+<figures/sampling_error_beta1_100.png, id=354, 1284.8pt x 934.49126pt>
 File: figures/sampling_error_beta1_100.png Graphic file (type png)
 <use figures/sampling_error_beta1_100.png>
 Package pdftex.def Info: figures/sampling_error_beta1_100.png  used on input li
@@ -1938,7 +1938,7 @@ Overfull \vbox (4.18347pt too high) detected at line 1019
 ] (trick04.toc) [56
 
 ]
-<figures/politicallyconnected4.png, id=445, 1284.8pt x 934.49126pt>
+<figures/politicallyconnected4.png, id=443, 1284.8pt x 934.49126pt>
 File: figures/politicallyconnected4.png Graphic file (type png)
 <use figures/politicallyconnected4.png>
 Package pdftex.def Info: figures/politicallyconnected4.png  used on input line 
@@ -1980,50 +1980,44 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 27853 strings out of 479799
- 545561 string characters out of 2877698
- 1024147 words of memory out of 3000000
+ 27851 strings out of 479799
+ 545536 string characters out of 2877698
+ 1024142 words of memory out of 3000000
  43928 multiletter control sequences out of 15000+200000
  568379 words of font info for 133 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  125i,15n,126p,1332b,908s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{Navigation238} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Navigation88} has been referenced but does not exis
-t, replaced by a fixed one
-
- <C:\Users\drost\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/public/concmath-fonts
-/dpi600\xccmi9.pk> <C:\Users\drost\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/pub
-lic/concmath-fonts/dpi720\xccmi10.pk> <C:\Users\drost\AppData\Local\MiKTeX\2.9\
-fonts/pk/ljfour/public/concmath-fonts/dpi600\xccsy7.pk> <C:\Users\drost\AppData
-\Local\MiKTeX\2.9\fonts/pk/ljfour/public/concmath-fonts/dpi600\xccex10.pk> <C:\
-Users\drost\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/public/concmath-fonts/dpi6
-00\xccsy10.pk> <C:\Users\drost\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/public/
-concmath-fonts/dpi600\xccmi6.pk> <C:\Users\drost\AppData\Local\MiKTeX\2.9\fonts
-/pk/ljfour/public/concmath-fonts/dpi600\xccmi8.pk> <C:\Users\drost\AppData\Loca
-l\MiKTeX\2.9\fonts/pk/ljfour/public/concmath-fonts/dpi600\xccsy8.pk> <C:\Users\
-drost\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/public/concmath-fonts/dpi600\xcc
-sy6.pk> <C:\Users\drost\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/public/concmat
-h-fonts/dpi657\xccsy10.pk> <C:\Users\drost\AppData\Local\MiKTeX\2.9\fonts/pk/lj
-four/public/concmath-fonts/dpi657\xccmi10.pk> <C:\Users\drost\AppData\Local\MiK
-TeX\2.9\fonts/pk/ljfour/public/concmath-fonts/dpi600\xccmi10.pk><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmss17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmss9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss
-bx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi10.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi12.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi9.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/symbols/msam7.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on trick04.pdf (60 pages, 2754090 bytes).
+ <C:\Users\drost\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/public/concmath-fon
+ts/dpi600\xccmi9.pk> <C:\Users\drost\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/p
+ublic/concmath-fonts/dpi720\xccmi10.pk> <C:\Users\drost\AppData\Local\MiKTeX\2.
+9\fonts/pk/ljfour/public/concmath-fonts/dpi600\xccsy7.pk> <C:\Users\drost\AppDa
+ta\Local\MiKTeX\2.9\fonts/pk/ljfour/public/concmath-fonts/dpi600\xccex10.pk> <C
+:\Users\drost\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/public/concmath-fonts/dp
+i600\xccsy10.pk> <C:\Users\drost\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/publi
+c/concmath-fonts/dpi600\xccmi6.pk> <C:\Users\drost\AppData\Local\MiKTeX\2.9\fon
+ts/pk/ljfour/public/concmath-fonts/dpi600\xccmi8.pk> <C:\Users\drost\AppData\Lo
+cal\MiKTeX\2.9\fonts/pk/ljfour/public/concmath-fonts/dpi600\xccsy8.pk> <C:\User
+s\drost\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/public/concmath-fonts/dpi600\x
+ccsy6.pk> <C:\Users\drost\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/public/concm
+ath-fonts/dpi657\xccsy10.pk> <C:\Users\drost\AppData\Local\MiKTeX\2.9\fonts/pk/
+ljfour/public/concmath-fonts/dpi657\xccmi10.pk> <C:\Users\drost\AppData\Local\M
+iKTeX\2.9\fonts/pk/ljfour/public/concmath-fonts/dpi600\xccmi10.pk><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmss17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmss9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+ssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi10.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi12.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi9.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/symbols/msam7.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on trick04.pdf (60 pages, 2753929 bytes).
 PDF statistics:
- 670 PDF objects out of 1000 (max. 8388607)
- 159 named destinations out of 1000 (max. 500000)
+ 668 PDF objects out of 1000 (max. 8388607)
+ 157 named destinations out of 1000 (max. 500000)
  251 words of extra memory for PDF output out of 10000 (max. 10000000)
 

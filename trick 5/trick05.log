@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.30)  15 OCT 2024 10:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.30)  18 NOV 2024 15:15
 entering extended mode
 **./trick05.tex
 (trick05.tex
@@ -1631,7 +1631,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  27348 strings out of 479799
  534339 string characters out of 2877698
- 1024644 words of memory out of 3000000
+ 1024639 words of memory out of 3000000
  43561 multiletter control sequences out of 15000+200000
  571540 words of font info for 137 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191

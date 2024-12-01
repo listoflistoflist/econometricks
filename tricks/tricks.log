@@ -1,0 +1,3660 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.12) (preloaded format=pdflatex 2024.1.7)  1 DEC 2024 23:28
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./tricks.tex
+(tricks.tex
+LaTeX2e <2023-11-01>
+L3 programming layer <2023-12-11>
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/base\art
+icle.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/base\siz
+e12.clo
+File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count187
+\c@section=\count188
+\c@subsection=\count189
+\c@subsubsection=\count190
+\c@paragraph=\count191
+\c@subparagraph=\count192
+\c@figure=\count193
+\c@table=\count194
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/natbib\n
+atbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip50
+\bibsep=\skip51
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count195
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/geometry
+\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/graphics
+\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/iftex\
+ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/iftex\
+iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count196
+\Gm@cntv=\count197
+\c@Gm@tempcnt=\count198
+\Gm@bindingoffset=\dimen141
+\Gm@wd@mp=\dimen142
+\Gm@odd@mp=\dimen143
+\Gm@even@mp=\dimen144
+\Gm@layoutwidth=\dimen145
+\Gm@layoutheight=\dimen146
+\Gm@layouthoffset=\dimen147
+\Gm@layoutvoffset=\dimen148
+\Gm@dimlist=\toks18
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/geometry
+\geometry.cfg))
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/graphics
+\epsfig.sty
+Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/graphics
+\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/graphics
+\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/graphics
+\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/graphics
+-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/graphics
+-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen149
+\Gin@req@width=\dimen150
+)
+\epsfxsize=\dimen151
+\epsfysize=\dimen152
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/graphics
+\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/setspace
+\setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/placeins
+\placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/floatrow
+\floatrow.sty
+Package: floatrow 2008/08/02 v0.3b floatrow: float package extension
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/caption\
+caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen153
+\captionmargin=\dimen154
+\caption@leftmargin=\dimen155
+\caption@rightmargin=\dimen156
+\caption@width=\dimen157
+\caption@indent=\dimen158
+\caption@parindent=\dimen159
+\caption@hangindent=\dimen160
+Package caption Info: Standard document class detected.
+)
+\c@float@type=\count199
+\float@exts=\toks19
+\float@box=\box51
+\@floatcapt=\box52
+Package floatrow Info: Modified float package code loaded on input line 455.
+Package floatrow Info: Modified rotfloat package code loaded on input line 473.
+
+\FR@everyfloat=\toks20
+\flrow@foot=\insert252
+\FB@wd=\dimen161
+\FBo@wd=\dimen162
+\FBc@wd=\dimen163
+\FBo@ht=\skip52
+\FBc@ht=\skip53
+\FBf@ht=\skip54
+\FBo@max=\skip55
+\FBc@max=\skip56
+\FBf@max=\skip57
+\c@FBl@b=\count266
+\floatbox@depth=\count267
+\c@FRobj=\count268
+\c@FRsobj=\count269
+\Xhsize=\skip58
+\sXhsize=\skip59
+\Zhsize=\skip60
+\sZhsize=\skip61
+\flrow@rowbox=\box53
+\FR@Zunitlength=\dimen164
+\c@FBcnt=\count270
+\FPOScnt=\count271
+\LTleft=\skip62
+\LTright=\skip63
+\LTleft=\skip64
+\LTright=\skip65
+\flrow@types=\toks21
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/url\url.
+sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/base\inp
+utenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks22
+\inpenc@posthook=\toks23
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/base\fon
+tenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\
+wrapfig.sty
+\wrapoverhang=\dimen165
+\WF@size=\dimen166
+\c@WF@wrappedlines=\count272
+\WF@box=\box54
+\WF@everypar=\toks24
+Package: wrapfig 2003/01/31  v 3.6
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/comment\
+comment.sty
+\CommentStream=\write3
+ Excluding comment 'comment')
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\
+amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip66
+
+For additional information on amsmath, use the `?' option.
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\
+amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\
+amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks25
+\ex@=\dimen167
+))
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\
+amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen168
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\
+amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count273
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count274
+\leftroot@=\count275
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count276
+\DOTSCASE@=\count277
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box55
+\strutbox@=\box56
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen169
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count278
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count279
+\dotsspace@=\muskip17
+\c@parentequation=\count280
+\dspbrk@lvl=\count281
+\tag@help=\toks26
+\row@=\count282
+\column@=\count283
+\maxfields@=\count284
+\andhelp@=\toks27
+\eqnshift@=\dimen170
+\alignsep@=\dimen171
+\tagshift@=\dimen172
+\tagwidth@=\dimen173
+\totwidth@=\dimen174
+\lineht@=\dimen175
+\@envbody=\toks28
+\multlinegap=\skip67
+\multlinetaggap=\skip68
+\mathdisplay@stack=\toks29
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts
+\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts
+\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/amscls\a
+msthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks30
+\thm@bodyfont=\toks31
+\thm@headfont=\toks32
+\thm@notefont=\toks33
+\thm@headpunct=\toks34
+\thm@preskip=\skip69
+\thm@postskip=\skip70
+\thm@headsep=\skip71
+\dth@everypar=\toks35
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/bbm\bbm.
+sty
+Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
+LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
+(Font)                  U/bbm/m/n --> U/bbm/bx/n on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
+(Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/tools\bm
+.sty
+Package: bm 2023/07/08 v1.2f Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
+Package bm Info: No bold for \U/msa/m/n, using \pmb.
+Package bm Info: No bold for \U/msb/m/n, using \pmb.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/tools\lo
+ngtable.sty
+Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
+\LTleft=\skip72
+\LTright=\skip73
+\LTpre=\skip74
+\LTpost=\skip75
+\LTchunksize=\count285
+\LTcapwidth=\dimen176
+\LT@head=\box57
+\LT@firsthead=\box58
+\LT@foot=\box59
+\LT@lastfoot=\box60
+\LT@gbox=\box61
+\LT@cols=\count286
+\LT@rows=\count287
+\c@LT@tables=\count288
+\c@LT@chunks=\count289
+\LT@p@ftn=\toks36
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/carlisle
+\ltxtable.sty
+Package: ltxtable 2021/06/13 v0.4 longtable/tabularx merge (DPC)
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/tools\ta
+bularx.sty
+Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/tools\ar
+ray.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen177
+\ar@mcellbox=\box62
+\extrarowheight=\dimen178
+\NC@list=\toks37
+\extratabsurround=\skip76
+\backup@length=\skip77
+\ar@cellbox=\box63
+)
+\TX@col@width=\dimen179
+\TX@old@table=\dimen180
+\TX@old@col=\dimen181
+\TX@target=\dimen182
+\TX@delta=\dimen183
+\TX@cols=\count290
+\TX@ftn=\toks38
+))
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/threepar
+ttable\threeparttable.sty
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box64
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/booktabs
+\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen184
+\lightrulewidth=\dimen185
+\cmidrulewidth=\dimen186
+\belowrulesep=\dimen187
+\belowbottomsep=\dimen188
+\aboverulesep=\dimen189
+\abovetopsep=\dimen190
+\cmidrulesep=\dimen191
+\cmidrulekern=\dimen192
+\defaultaddspace=\dimen193
+\@cmidla=\count291
+\@cmidlb=\count292
+\@aboverulesep=\dimen194
+\@belowrulesep=\dimen195
+\@thisruleclass=\count293
+\@lastruleclass=\count294
+\@thisrulewidth=\dimen196
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/multirow
+\multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip78
+\multirow@cntb=\count295
+\multirow@dima=\skip79
+\bigstrutjot=\dimen197
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/soul\s
+oul.sty
+Package: soul 2023-06-14 v3.1 Permit use of UTF-8 characters in soul (HO)
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/soul\s
+oul-ori.sty
+Package: soul-ori 2023-06-14 v3.1 letterspacing/underlining (mf)
+\SOUL@word=\toks39
+\SOUL@lasttoken=\toks40
+\SOUL@syllable=\toks41
+\SOUL@cmds=\toks42
+\SOUL@buffer=\toks43
+\SOUL@token=\toks44
+\SOUL@syllgoal=\dimen198
+\SOUL@syllwidth=\dimen199
+\SOUL@charkern=\dimen256
+\SOUL@hyphkern=\dimen257
+\SOUL@dimen=\dimen258
+\SOUL@dimeni=\dimen259
+\SOUL@minus=\count296
+\SOUL@comma=\count297
+\SOUL@apo=\count298
+\SOUL@grave=\count299
+\SOUL@spaceskip=\skip80
+\SOUL@ttwidth=\dimen260
+\SOUL@uldp=\dimen261
+\SOUL@ulht=\dimen262
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/infwar
+err\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/etexcm
+ds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+))
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/caption\
+subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/caption\
+caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+\c@caption@flags=\count300
+\c@continuedfloat=\count301
+Package caption Info: float package is loaded.
+Package caption Info: floatrow package is loaded.
+Package caption Info: floatrow package is loaded.
+Package caption Info: longtable package is loaded.
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/caption\
+ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
+Package caption Info: threeparttable package is loaded.
+Package caption Info: wrapfig package is loaded.
+)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count302
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count303
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/jknappen
+\mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup9
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/eurosym\
+eurosym.sty
+Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
+\@eurobox=\box65
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\x
+color.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/graphics
+-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+
+Package xcolor Warning: Package option `usenames' is obsolete and ignored on in
+put line 266.
+
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/graphics
+\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/graphics
+\dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/colortbl
+\colortbl.sty
+Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
+\everycr=\toks45
+\minrowclearance=\skip81
+\rownum=\count304
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/circleds
+teps\circledsteps.sty
+Package: circledsteps 2023/08/11 v1.3.3 Circled steps that you can reference
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/pict2e\p
+ict2e.sty
+Package: pict2e 2020/09/30 v0.4b Improved picture commands (HjG,RN,JT)
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/pict2e\p
+ict2e.cfg
+File: pict2e.cfg 2016/02/05 v0.1u pict2e configuration for teTeX/TeXLive
+)
+Package pict2e Info: Driver file: pdftex.def on input line 112.
+Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 114.
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/pict2e\p
+2e-pdftex.def
+File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
+)
+\pIIe@GRAPH=\toks46
+\@arclen=\dimen263
+\@arcrad=\dimen264
+\pIIe@tempdima=\dimen265
+\pIIe@tempdimb=\dimen266
+\pIIe@tempdimc=\dimen267
+\pIIe@tempdimd=\dimen268
+\pIIe@tempdime=\dimen269
+\pIIe@tempdimf=\dimen270
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/picture\
+picture.sty
+Package: picture 2020-04-22 v1.6 Dimens for picture macros (HO)
+Package picture Info: Calculation method: etex.
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/pgf/util
+ities\pgfkeys.sty
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/ut
+ilities\pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks47
+\pgfkeys@temptoks=\toks48
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/ut
+ilities\pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks49
+)))
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox
+\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count305
+)
+\csteps@CBox=\box66
+\csteps@XLength=\skip82
+\csteps@YLength=\skip83
+\csteps@YDepth=\skip84
+\csteps@tmplen=\skip85
+\c@cstepcnt=\count306
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/tools\mu
+lticol.sty
+Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
+\c@tracingmulticols=\count307
+\mult@box=\box67
+\multicol@leftmargin=\dimen271
+\c@unbalance=\count308
+\c@collectmore=\count309
+\doublecol@number=\count310
+\multicoltolerance=\count311
+\multicolpretolerance=\count312
+\full@width=\dimen272
+\page@free=\dimen273
+\premulticols=\dimen274
+\postmulticols=\dimen275
+\multicolsep=\skip86
+\multicolbaselineskip=\skip87
+\partial@page=\box68
+\last@line=\box69
+\mc@boxedresult=\box70
+\maxbalancingoverflow=\dimen276
+\mult@rightbox=\box71
+\mult@grightbox=\box72
+\mult@firstbox=\box73
+\mult@gfirstbox=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\c@minrows=\count313
+\c@columnbadness=\count314
+\c@finalcolumnbadness=\count315
+\last@try=\dimen277
+\multicolovershoot=\dimen278
+\multicolundershoot=\dimen279
+\mult@nat@firstbox=\box111
+\colbreak@box=\box112
+\mc@col@check@num=\count316
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/hyperref
+\hyperref.sty
+Package: hyperref 2023-11-26 v7.01g Hypertext links for LaTeX
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkey
+s\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/kvdefi
+nekeys\kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pdfesc
+ape\pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmd
+s\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pdftex
+cmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\
+hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/letltxma
+cro\letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\
+auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/hyperref
+\nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/refcount
+\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/gettit
+lestring\gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/kvoption
+s\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count317
+)
+\@linkdim=\dimen280
+\Hy@linkcounter=\count318
+\Hy@pagecounter=\count319
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/hyperref
+\pd1enc.def
+File: pd1enc.def 2023-11-26 v7.01g Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/intcal
+c\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count320
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/hyperref
+\puenc.def
+File: puenc.def 2023-11-26 v7.01g Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4181.
+Package hyperref Info: Link nesting OFF on input line 4186.
+Package hyperref Info: Hyper index ON on input line 4189.
+Package hyperref Info: Plain pages OFF on input line 4196.
+Package hyperref Info: Backreferencing OFF on input line 4201.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4448.
+\c@Hy@tempcnt=\count321
+LaTeX Info: Redefining \url on input line 4786.
+\XeTeXLinkMargin=\dimen281
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/bitset
+\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/bigint
+calc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count322
+\Field@Width=\dimen282
+\Fld@charsize=\dimen283
+Package hyperref Info: Hyper figures OFF on input line 6065.
+Package hyperref Info: Link nesting OFF on input line 6070.
+Package hyperref Info: Hyper index ON on input line 6073.
+Package hyperref Info: backreferencing OFF on input line 6080.
+Package hyperref Info: Link coloring OFF on input line 6085.
+Package hyperref Info: Link coloring with OCG OFF on input line 6090.
+Package hyperref Info: PDF/A mode OFF on input line 6095.
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/base\atb
+egshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count323
+\c@Item=\count324
+\c@Hfootnote=\count325
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/hyperref
+\hpdftex.def
+File: hpdftex.def 2023-11-26 v7.01g Hyperref driver for pdfTeX
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/base\atv
+eryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count326
+\c@bookmark@seq@number=\count327
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/rerunfil
+echeck\rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/unique
+counter\uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip88
+)
+\c@proposition=\count328
+\c@assumption=\count329
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/ulem\ule
+m.sty
+\UL@box=\box113
+\UL@hyphenbox=\box114
+\UL@skip=\skip89
+\UL@hook=\toks50
+\UL@height=\dimen284
+\UL@pe=\count330
+\UL@pixel=\dimen285
+\ULC@box=\box115
+Package: ulem 2019/11/18
+\ULdepth=\dimen286
+)
+
+Package hyperref Warning: Option `bookmarks' has already been used,
+(hyperref)                setting the option has no effect on input line 87.
+
+Package hyperref Info: Option `unicode' set `false' on input line 87.
+Package hyperref Info: Option `pdftoolbar' set `false' on input line 87.
+Package hyperref Info: Option `pdffitwindow' set `true' on input line 87.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 87.
+Package hyperref Info: Option `colorlinks' set `true' on input line 87.
+Package hyperref Info: Option `plainpages' set `false' on input line 87.
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/hyperref
+\backref.sty
+Package: backref 2023-11-26 v1.44 Bibliographical back referencing
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/pgf/fron
+tendlayer\tikz.sty
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basi
+clayer\pgf.sty
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/pgf/util
+ities\pgfrcs.sty
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/ut
+ilities\pgfutil-common.tex
+\pgfutil@everybye=\toks51
+\pgfutil@tempdima=\dimen287
+\pgfutil@tempdimb=\dimen288
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/ut
+ilities\pgfutil-latex.def
+\pgfutil@abb=\box116
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/ut
+ilities\pgfrcs.code.tex
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pg
+f.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basi
+clayer\pgfcore.sty
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/pgf/syst
+emlayer\pgfsys.sty
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/sy
+stemlayer\pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+\pgf@x=\dimen289
+\pgf@y=\dimen290
+\pgf@xa=\dimen291
+\pgf@ya=\dimen292
+\pgf@xb=\dimen293
+\pgf@yb=\dimen294
+\pgf@xc=\dimen295
+\pgf@yc=\dimen296
+\pgf@xd=\dimen297
+\pgf@yd=\dimen298
+\w@pgf@writea=\write4
+\r@pgf@reada=\read2
+\c@pgf@counta=\count331
+\c@pgf@countb=\count332
+\c@pgf@countc=\count333
+\c@pgf@countd=\count334
+\t@pgf@toka=\toks52
+\t@pgf@tokb=\toks53
+\t@pgf@tokc=\toks54
+\pgf@sys@id@count=\count335
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/sy
+stemlayer\pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/sy
+stemlayer\pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/sy
+stemlayer\pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/sy
+stemlayer\pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count336
+\pgfsyssoftpath@bigbuffer@items=\count337
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/sy
+stemlayer\pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/ba
+siclayer\pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/ma
+th\pgfmath.code.tex
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/ma
+th\pgfmathutil.code.tex)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/ma
+th\pgfmathparser.code.tex
+\pgfmath@dimen=\dimen299
+\pgfmath@count=\count338
+\pgfmath@box=\box117
+\pgfmath@toks=\toks55
+\pgfmath@stack@operand=\toks56
+\pgfmath@stack@operation=\toks57
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/ma
+th\pgfmathfunctions.code.tex)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/ma
+th\pgfmathfunctions.basic.code.tex)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/ma
+th\pgfmathfunctions.trigonometric.code.tex)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/ma
+th\pgfmathfunctions.random.code.tex)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/ma
+th\pgfmathfunctions.comparison.code.tex)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/ma
+th\pgfmathfunctions.base.code.tex)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/ma
+th\pgfmathfunctions.round.code.tex)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/ma
+th\pgfmathfunctions.misc.code.tex)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/ma
+th\pgfmathfunctions.integerarithmetics.code.tex)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/ma
+th\pgfmathcalc.code.tex)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/ma
+th\pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count339
+))
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/ma
+th\pgfint.code.tex)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/ba
+siclayer\pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen300
+\pgf@picmaxx=\dimen301
+\pgf@picminy=\dimen302
+\pgf@picmaxy=\dimen303
+\pgf@pathminx=\dimen304
+\pgf@pathmaxx=\dimen305
+\pgf@pathminy=\dimen306
+\pgf@pathmaxy=\dimen307
+\pgf@xx=\dimen308
+\pgf@xy=\dimen309
+\pgf@yx=\dimen310
+\pgf@yy=\dimen311
+\pgf@zx=\dimen312
+\pgf@zy=\dimen313
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/ba
+siclayer\pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen314
+\pgf@path@lasty=\dimen315
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/ba
+siclayer\pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen316
+\pgf@shorten@start@additional=\dimen317
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/ba
+siclayer\pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box118
+\pgf@hbox=\box119
+\pgf@layerbox@main=\box120
+\pgf@picture@serial@count=\count340
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/ba
+siclayer\pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen318
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/ba
+siclayer\pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen319
+\pgf@pt@y=\dimen320
+\pgf@pt@temp=\dimen321
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/ba
+siclayer\pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/ba
+siclayer\pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/ba
+siclayer\pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/ba
+siclayer\pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen322
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/ba
+siclayer\pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen323
+\pgf@sys@shading@range@num=\count341
+\pgf@shadingcount=\count342
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/ba
+siclayer\pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/ba
+siclayer\pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box121
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/ba
+siclayer\pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/ba
+siclayer\pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/ba
+siclayer\pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/ba
+siclayer\pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/mo
+dules\pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box122
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/mo
+dules\pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/pgf/comp
+atibility\pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen324
+\pgf@nodesepend=\dimen325
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/pgf/comp
+atibility\pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/pgf/util
+ities\pgffor.sty
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math
+\pgfmath.sty
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/ma
+th\pgfmath.code.tex))
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/ut
+ilities\pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen326
+\pgffor@skip=\dimen327
+\pgffor@stack=\toks58
+\pgffor@toks=\toks59
+))
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/fr
+ontendlayer/tikz\tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/li
+braries\pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count343
+\pgfplotmarksize=\dimen328
+)
+\tikz@lastx=\dimen329
+\tikz@lasty=\dimen330
+\tikz@lastxsaved=\dimen331
+\tikz@lastysaved=\dimen332
+\tikz@lastmovetox=\dimen333
+\tikz@lastmovetoy=\dimen334
+\tikzleveldistance=\dimen335
+\tikzsiblingdistance=\dimen336
+\tikz@figbox=\box123
+\tikz@figbox@bg=\box124
+\tikz@tempbox=\box125
+\tikz@tempbox@bg=\box126
+\tikztreelevel=\count344
+\tikznumberofchildren=\count345
+\tikznumberofcurrentchild=\count346
+\tikz@fig@count=\count347
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/mo
+dules\pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count348
+\pgfmatrixcurrentcolumn=\count349
+\pgf@matrix@numberofcolumns=\count350
+)
+\tikz@expandcount=\count351
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/generic/pgf/fr
+ontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+\c@definition=\count352
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/l3backen
+d\l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-11-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count353
+\l__pdf_internal_box=\box127
+) (tricks.aux
+
+LaTeX Warning: Label `tab:timeline' multiply defined.
+
+
+LaTeX Warning: Label `f4' multiply defined.
+
+
+LaTeX Warning: Label `f2' multiply defined.
+
+
+LaTeX Warning: Label `f3' multiply defined.
+
+
+LaTeX Warning: Label `f2' multiply defined.
+
+
+LaTeX Warning: Label `f2' multiply defined.
+
+
+LaTeX Warning: Label `f2' multiply defined.
+
+
+LaTeX Warning: Label `f2' multiply defined.
+
+
+LaTeX Warning: Label `tab:timeline' multiply defined.
+
+
+LaTeX Warning: Label `tab:timeline' multiply defined.
+
+
+LaTeX Warning: Label `tab:timeline' multiply defined.
+
+
+LaTeX Warning: Label `tab:timeline' multiply defined.
+
+
+LaTeX Warning: Label `tab:timeline' multiply defined.
+
+
+LaTeX Warning: Label `tab:timeline' multiply defined.
+
+
+LaTeX Warning: Label `tab:timeline' multiply defined.
+
+
+LaTeX Warning: Label `tab:timeline' multiply defined.
+
+
+LaTeX Warning: Label `tab:timeline' multiply defined.
+
+
+LaTeX Warning: Label `tab:timeline' multiply defined.
+
+
+LaTeX Warning: Label `fig:LRM' multiply defined.
+
+
+LaTeX Warning: Label `fig:LRM' multiply defined.
+
+
+LaTeX Warning: Label `fig:LRM' multiply defined.
+
+
+LaTeX Warning: Label `fig:LRM' multiply defined.
+
+
+LaTeX Warning: Label `fig:SS' multiply defined.
+
+
+LaTeX Warning: Label `f1' multiply defined.
+
+
+LaTeX Warning: Label `f1' multiply defined.
+
+
+LaTeX Warning: Label `f1' multiply defined.
+
+
+LaTeX Warning: Label `fig:distribution beta1 N3' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:distribution beta1 N3' multiply defined.
+
+
+LaTeX Warning: Label `fig:distribution beta1 N10' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:distribution beta1 N10' multiply defined.
+
+
+LaTeX Warning: Label `fig:distribution beta1 N100' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:distribution beta1 N100' multiply defined.
+
+
+LaTeX Warning: Label `fig:MeanValueTheorem' multiply defined.
+
+)
+\openout1 = `tricks.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 188.
+LaTeX Font Info:    ... okay on input line 188.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 188.
+LaTeX Font Info:    ... okay on input line 188.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 188.
+LaTeX Font Info:    ... okay on input line 188.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 188.
+LaTeX Font Info:    ... okay on input line 188.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 188.
+LaTeX Font Info:    ... okay on input line 188.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 188.
+LaTeX Font Info:    ... okay on input line 188.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 188.
+LaTeX Font Info:    ... okay on input line 188.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 188.
+LaTeX Font Info:    ... okay on input line 188.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 188.
+LaTeX Font Info:    ... okay on input line 188.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=702.78308pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/context/base/m
+kii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count354
+\scratchdimen=\dimen337
+\scratchbox=\box128
+\nofMPsegments=\count355
+\nofMParguments=\count356
+\everyMPshowfont=\toks60
+\MPscratchCnt=\count357
+\MPscratchDim=\dimen338
+\MPnumerator=\count358
+\makeMPintoPDFobject=\count359
+\everyMPtoPDFconversion=\toks61
+)
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf
+-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/00miktex
+\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: Fixing longtable code of `floatrow' package.
+Package caption Info: End \AtBeginDocument code.
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/floatrow
+\fr-longtable.sty
+Package: fr-longtable 2007/11/28 v0.1b (beta) floatrow: additions for longtable
+
+\flrow@LT@lasthead=\box129
+\flrow@LT@prelastfoot=\box130
+\c@FBLTpage=\count360
+)
+Package hyperref Info: Link coloring ON on input line 188.
+ (tricks.out) (tricks.out)
+\@outlinefile=\write5
+\openout5 = `tricks.out'.
+
+Package backref Info: ** backref set up for natbib ** on input line 188.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 206
+.
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts
+\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 206
+.
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts
+\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 20
+6.
+
+(C:\Users\Davud Rostam-Afschar\AppData\Local\Programs\MiKTeX\tex/latex/jknappen
+\ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
+
+ []
+
+[1
+
+{C:/Users/Davud Rostam-Afschar/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map
+}] (tricks.toc [2])
+\tf@toc=\write6
+\openout6 = `tricks.toc'.
+
+ [3]
+<figures/binomial_pdf.png, id=279, 668.4975pt x 486.81876pt>
+File: figures/binomial_pdf.png Graphic file (type png)
+<use figures/binomial_pdf.png>
+Package pdftex.def Info: figures/binomial_pdf.png  used on input line 237.
+(pdftex.def)             Requested size: 200.76353pt x 146.20274pt.
+
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 237--238
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 237--238
+
+ []
+
+<figures/normal_pdf.png, id=280, 668.4975pt x 486.81876pt>
+File: figures/normal_pdf.png Graphic file (type png)
+<use figures/normal_pdf.png>
+Package pdftex.def Info: figures/normal_pdf.png  used on input line 247.
+(pdftex.def)             Requested size: 200.76353pt x 146.20274pt.
+
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 247--248
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--248
+
+ []
+
+[4 <./figures/binomial_pdf.png (PNG copy)> <./figures/normal_pdf.png (PNG copy)
+>]
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 263--297
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 263--297
+
+ []
+
+[5]
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 322--323
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--323
+
+ []
+
+<figures/normal_pdf_sym.png, id=299, 668.4975pt x 486.81876pt>
+File: figures/normal_pdf_sym.png Graphic file (type png)
+<use figures/normal_pdf_sym.png>
+Package pdftex.def Info: figures/normal_pdf_sym.png  used on input line 333.
+(pdftex.def)             Requested size: 223.07211pt x 162.44832pt.
+<figures/normal_cdf_sym.png, id=300, 668.4975pt x 486.81876pt>
+File: figures/normal_cdf_sym.png Graphic file (type png)
+<use figures/normal_cdf_sym.png>
+Package pdftex.def Info: figures/normal_cdf_sym.png  used on input line 334.
+(pdftex.def)             Requested size: 223.07211pt x 162.44832pt.
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 380--380
+
+ []
+
+
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 346--381
+[]
+ []
+
+
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 346--381
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 346--381
+
+ []
+
+
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 386--387
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 386--387
+
+ []
+
+[7 <./figures/normal_pdf_sym.png (PNG copy)> <./figures/normal_cdf_sym.png (PNG
+ copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 400--400
+
+ []
+
+
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 400--401
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 400--401
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 402--403
+
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.416 \end{equation} }
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.416 \end{equation} }
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.416 \end{equation} }
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.416 \end{equation} }
+                      
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 416--417
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 416--417
+
+ []
+
+
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 421--422
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 421--422
+
+ []
+
+[8]
+Overfull \hbox (7.99515pt too wide) detected at line 427
+\OML/cmm/m/it/12 E\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 x[]\OT1/cmr/m/n/12 ] = [] \
+OML/cmm/m/it/12 Pr\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X \OT1/cmr/m/n/12 = \OML/cm
+m/m/it/12 x\OT1/cmr/m/n/12 ) = [] [] \OML/cmm/m/it/12 x[] \OT1/cmr/m/n/12 = [][
+]\OML/cmm/m/it/12 :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 427--427
+
+ []
+
+
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 427--428
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 427--428
+
+ []
+
+
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 436--437
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 436--437
+
+ []
+
+<figures/chebyshev_inequality_pdf.png, id=321, 668.4975pt x 486.81876pt>
+File: figures/chebyshev_inequality_pdf.png Graphic file (type png)
+<use figures/chebyshev_inequality_pdf.png>
+Package pdftex.def Info: figures/chebyshev_inequality_pdf.png  used on input li
+ne 443.
+(pdftex.def)             Requested size: 409.71692pt x 298.37779pt.
+[9 <./figures/chebyshev_inequality_pdf.png (PNG copy)>]
+<figures/Standard_deviation_diagram.png, id=328, 1927.2pt x 963.6pt>
+File: figures/Standard_deviation_diagram.png Graphic file (type png)
+<use figures/Standard_deviation_diagram.png>
+Package pdftex.def Info: figures/Standard_deviation_diagram.png  used on input 
+line 453.
+(pdftex.def)             Requested size: 409.71692pt x 204.84683pt.
+
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 465--466
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 465--466
+
+ []
+
+
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 476--477
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 476--477
+
+ []
+
+<figures/skewness_kurtosis.jpg, id=330, 196.78519pt x 185.40266pt>
+File: figures/skewness_kurtosis.jpg Graphic file (type jpg)
+<use figures/skewness_kurtosis.jpg>
+Package pdftex.def Info: figures/skewness_kurtosis.jpg  used on input line 483.
+
+(pdftex.def)             Requested size: 409.71692pt x 386.02449pt.
+[10 <./figures/Standard_deviation_diagram.png>]
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 493--494
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 493--494
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 499--500
+
+ []
+
+[11 <./figures/skewness_kurtosis.jpg>]
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 504--505
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 504--505
+
+ []
+
+
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 519--520
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 519--520
+
+ []
+
+
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 537--538
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 537--538
+
+ []
+
+[12]
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.542  \begin{equation}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.542  \begin{equation}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.542  \begin{equation}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.542  \begin{equation}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.546  {\begin{equation}
+                        
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.546  {\begin{equation}
+                        
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.546  {\begin{equation}
+                        
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.546  {\begin{equation}
+                        
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.550  \begin{equation}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.550  \begin{equation}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.550  \begin{equation}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.550  \begin{equation}
+                       
+Underfull \hbox (badness 10000) in paragraph at lines 552--554
+
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.559 }
+       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.559 }
+       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.559 }
+       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.559 }
+       
+Overfull \hbox (38.8248pt too wide) in paragraph at lines 559--560
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 559--560
+
+ []
+
+[13]
+<figures/taylor1_formula.png, id=354, 602.25pt x 451.6875pt>
+File: figures/taylor1_formula.png Graphic file (type png)
+<use figures/taylor1_formula.png>
+Package pdftex.def Info: figures/taylor1_formula.png  used on input line 565.
+(pdftex.def)             Requested size: 409.71692pt x 307.30194pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 712--713
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 719--719
+
+ []
+
+
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 719--720
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 719--720
+
+ []
+
+[14
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.2}
+) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.720 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.1.2}
+) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.720 
+       <./figures/taylor1_formula.png>]
+Overfull \hbox (16.81291pt too wide) in paragraph at lines 754--754
+$[][]$ 
+ []
+
+<figures/Jensens_inequality.png, id=364, 668.4975pt x 486.81876pt>
+File: figures/Jensens_inequality.png Graphic file (type png)
+<use figures/Jensens_inequality.png>
+Package pdftex.def Info: figures/Jensens_inequality.png  used on input line 754
+.
+(pdftex.def)             Requested size: 250.38564pt x 182.33372pt.
+
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 754--755
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 754--755
+
+ []
+
+[15 <./figures/Jensens_inequality.png (PNG copy)>] [16]
+<figures/distributions.png, id=373, 721.94719pt x 429.85594pt>
+File: figures/distributions.png Graphic file (type png)
+<use figures/distributions.png>
+Package pdftex.def Info: figures/distributions.png  used on input line 781.
+(pdftex.def)             Requested size: 409.71692pt x 243.9513pt.
+ [17 <./figures/distributions.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 806--806
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 806--806
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 806--806
+
+ []
+
+
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 806--807
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 806--807
+
+ []
+
+File: figures/binomial_pdf.png Graphic file (type png)
+<use figures/binomial_pdf.png>
+Package pdftex.def Info: figures/binomial_pdf.png  used on input line 813.
+(pdftex.def)             Requested size: 204.85846pt x 149.18147pt.
+<figures/binomial_cdf.png, id=379, 1397.22pt x 931.48pt>
+File: figures/binomial_cdf.png Graphic file (type png)
+<use figures/binomial_cdf.png>
+Package pdftex.def Info: figures/binomial_cdf.png  used on input line 814.
+(pdftex.def)             Requested size: 204.85846pt x 136.56062pt.
+
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 828--831
+[]
+ []
+
+[18 <./figures/binomial_cdf.png (PNG copy)>]
+<figures/poisson_pdf.png, id=386, 896.34875pt x 652.4375pt>
+File: figures/poisson_pdf.png Graphic file (type png)
+<use figures/poisson_pdf.png>
+Package pdftex.def Info: figures/poisson_pdf.png  used on input line 835.
+(pdftex.def)             Requested size: 409.71692pt x 298.2234pt.
+ [19 <./figures/poisson_pdf.png (PNG copy)>]
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 847--848
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 847--848
+
+ []
+
+<figures/normals_pdf.png, id=393, 1397.22pt x 931.48pt>
+File: figures/normals_pdf.png Graphic file (type png)
+<use figures/normals_pdf.png>
+Package pdftex.def Info: figures/normals_pdf.png  used on input line 854.
+(pdftex.def)             Requested size: 409.71692pt x 273.14969pt.
+
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 870--871
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 870--871
+
+ []
+
+[20 <./figures/normals_pdf.png (PNG copy)>]
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 881--882
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 881--882
+
+ []
+
+
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 891--892
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 891--892
+
+ []
+
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 911--912
+
+ []
+
+
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 922--923
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 922--923
+
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[22] [23]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 979.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\chi' on input line 979.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 979.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 979.
+
+
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 990--991
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 990--991
+
+ []
+
+<figures/chi2_pdf.png, id=417, 896.34875pt x 652.4375pt>
+File: figures/chi2_pdf.png Graphic file (type png)
+<use figures/chi2_pdf.png>
+Package pdftex.def Info: figures/chi2_pdf.png  used on input line 997.
+(pdftex.def)             Requested size: 223.07211pt x 162.36232pt.
+<figures/chi2_cdf.png, id=418, 896.34875pt x 652.4375pt>
+File: figures/chi2_cdf.png Graphic file (type png)
+<use figures/chi2_cdf.png>
+Package pdftex.def Info: figures/chi2_cdf.png  used on input line 998.
+(pdftex.def)             Requested size: 223.07211pt x 162.36232pt.
+
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 1010--1011
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1010--1011
+
+ []
+
+<figures/chi2_cdf_approx.png, id=419, 718.685pt x 430.60875pt>
+File: figures/chi2_cdf_approx.png Graphic file (type png)
+<use figures/chi2_cdf_approx.png>
+Package pdftex.def Info: figures/chi2_cdf_approx.png  used on input line 1016.
+(pdftex.def)             Requested size: 409.71692pt x 245.49551pt.
+[24 <./figures/chi2_pdf.png (PNG copy)> <./figures/chi2_cdf.png (PNG copy)>]
+[25 <./figures/chi2_cdf_approx.png (PNG copy)>]
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 1068--1069
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1068--1069
+
+ []
+
+<figures/F_pdf.png, id=433, 896.34875pt x 652.4375pt>
+File: figures/F_pdf.png Graphic file (type png)
+<use figures/F_pdf.png>
+Package pdftex.def Info: figures/F_pdf.png  used on input line 1073.
+(pdftex.def)             Requested size: 223.07211pt x 162.36232pt.
+<figures/F_cdf.png, id=434, 896.34875pt x 652.4375pt>
+File: figures/F_cdf.png Graphic file (type png)
+<use figures/F_cdf.png>
+Package pdftex.def Info: figures/F_cdf.png  used on input line 1074.
+(pdftex.def)             Requested size: 223.07211pt x 162.36232pt.
+[26 <./figures/F_pdf.png (PNG copy)> <./figures/F_cdf.png (PNG copy)>] [27]
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 1123--1124
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1123--1124
+
+ []
+
+<figures/t_pdf.png, id=445, 718.685pt x 430.60875pt>
+File: figures/t_pdf.png Graphic file (type png)
+<use figures/t_pdf.png>
+Package pdftex.def Info: figures/t_pdf.png  used on input line 1129.
+(pdftex.def)             Requested size: 223.07211pt x 133.65816pt.
+<figures/t_cdf.png, id=446, 718.685pt x 430.60875pt>
+File: figures/t_cdf.png Graphic file (type png)
+<use figures/t_cdf.png>
+Package pdftex.def Info: figures/t_cdf.png  used on input line 1130.
+(pdftex.def)             Requested size: 223.07211pt x 133.65816pt.
+File: figures/t_pdf.png Graphic file (type png)
+<use figures/t_pdf.png>
+Package pdftex.def Info: figures/t_pdf.png  used on input line 1141.
+(pdftex.def)             Requested size: 409.71692pt x 245.49551pt.
+[28 <./figures/t_pdf.png (PNG copy)> <./figures/t_cdf.png (PNG copy)>] [29]
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 1198--1199
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1198--1199
+
+ []
+
+<figures/lnnormal_pdf.png, id=460, 718.685pt x 430.60875pt>
+File: figures/lnnormal_pdf.png Graphic file (type png)
+<use figures/lnnormal_pdf.png>
+Package pdftex.def Info: figures/lnnormal_pdf.png  used on input line 1204.
+(pdftex.def)             Requested size: 223.07211pt x 133.65816pt.
+<figures/lnnormal_cdf.png, id=461, 718.685pt x 430.60875pt>
+File: figures/lnnormal_cdf.png Graphic file (type png)
+<use figures/lnnormal_cdf.png>
+Package pdftex.def Info: figures/lnnormal_cdf.png  used on input line 1205.
+(pdftex.def)             Requested size: 223.07211pt x 133.65816pt.
+[30 <./figures/lnnormal_pdf.png (PNG copy)> <./figures/lnnormal_cdf.png (PNG co
+py)>] [31]
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 1247--1248
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1247--1248
+
+ []
+
+<figures/gamma_pdf.png, id=473, 718.685pt x 430.60875pt>
+File: figures/gamma_pdf.png Graphic file (type png)
+<use figures/gamma_pdf.png>
+Package pdftex.def Info: figures/gamma_pdf.png  used on input line 1255.
+(pdftex.def)             Requested size: 223.07211pt x 133.65816pt.
+<figures/gamma_cdf.png, id=474, 718.685pt x 430.60875pt>
+File: figures/gamma_cdf.png Graphic file (type png)
+<use figures/gamma_cdf.png>
+Package pdftex.def Info: figures/gamma_cdf.png  used on input line 1256.
+(pdftex.def)             Requested size: 223.07211pt x 133.65816pt.
+
+Overfull \hbox (25.32875pt too wide) in paragraph at lines 1249--1258
+[]\T1/cmr/m/n/12 Many fa-mil-iar dis-tri-bu-tions are spe-cial cases, in-clud-i
+ng the $[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12  \OT1/cmr/m/n/12 =
+ []
+
+
+Overfull \hbox (12.97931pt too wide) in paragraph at lines 1249--1258
+\T1/cmr/m/n/12 tive in-te-ger. The mean is $\OML/cmm/m/it/12 =^^L$\T1/cmr/m/n/
+12 , and the vari-ance is $\OML/cmm/m/it/12 =^^L[]$\T1/cmr/m/n/12 . The $[]$
+ []
+
+[32 <./figures/gamma_pdf.png (PNG copy)> <./figures/gamma_cdf.png (PNG copy)>]
+[33]
+<figures/beta_pdf.png, id=485, 718.685pt x 430.60875pt>
+File: figures/beta_pdf.png Graphic file (type png)
+<use figures/beta_pdf.png>
+Package pdftex.def Info: figures/beta_pdf.png  used on input line 1308.
+(pdftex.def)             Requested size: 223.07211pt x 133.65816pt.
+<figures/beta_cdf.png, id=486, 718.685pt x 430.60875pt>
+File: figures/beta_cdf.png Graphic file (type png)
+<use figures/beta_cdf.png>
+Package pdftex.def Info: figures/beta_cdf.png  used on input line 1309.
+(pdftex.def)             Requested size: 223.07211pt x 133.65816pt.
+
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 1305--1311
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1305--1311
+
+ []
+
+[34 <./figures/beta_pdf.png (PNG copy)> <./figures/beta_cdf.png (PNG copy)>]
+[35]
+<figures/normal_logistic_cdf.png, id=497, 896.34875pt x 652.4375pt>
+File: figures/normal_logistic_cdf.png Graphic file (type png)
+<use figures/normal_logistic_cdf.png>
+Package pdftex.def Info: figures/normal_logistic_cdf.png  used on input line 13
+60.
+(pdftex.def)             Requested size: 409.71692pt x 298.2234pt.
+
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 1357--1362
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1357--1362
+
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[36 <./figures/normal_logistic_cdf.png (PNG copy)>]
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 1422--1423
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1422--1423
+
+ []
+
+[37]
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 1632--1633
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1632--1633
+
+ []
+
+[38
+
+]
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 1667--1668
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1667--1668
+
+ []
+
+[39]
+<figures/bivariate_normal_pdf.png, id=522, 668.4975pt x 486.81876pt>
+File: figures/bivariate_normal_pdf.png Graphic file (type png)
+<use figures/bivariate_normal_pdf.png>
+Package pdftex.def Info: figures/bivariate_normal_pdf.png  used on input line 1
+690.
+(pdftex.def)             Requested size: 223.07211pt x 162.44832pt.
+<figures/bivariate_normal_pdf_contour.png, id=523, 668.4975pt x 486.81876pt>
+File: figures/bivariate_normal_pdf_contour.png Graphic file (type png)
+<use figures/bivariate_normal_pdf_contour.png>
+Package pdftex.def Info: figures/bivariate_normal_pdf_contour.png  used on inpu
+t line 1691.
+(pdftex.def)             Requested size: 223.07211pt x 162.44832pt.
+
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 1686--1693
+[]
+ []
+
+
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 1706--1707
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1706--1707
+
+ []
+
+<figures/jointcdf.png, id=524, 554.07pt x 529.98pt>
+File: figures/jointcdf.png Graphic file (type png)
+<use figures/jointcdf.png>
+Package pdftex.def Info: figures/jointcdf.png  used on input line 1752.
+(pdftex.def)             Requested size: 182.09833pt x 174.18228pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1752--1752
+
+ []
+
+
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 1752--1753
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1752--1753
+
+ []
+
+[40 <./figures/bivariate_normal_pdf.png (PNG copy)> <./figures/bivariate_normal
+_pdf_contour.png (PNG copy)>]
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 1759--1760
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1759--1760
+
+ []
+
+
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 1780--1781
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1780--1781
+
+ []
+
+[41 <./figures/jointcdf.png>]
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 1813--1814
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1813--1814
+
+ []
+
+<figures/MultivariateNormal.png, id=536, 405.6756pt x 306.9066pt>
+File: figures/MultivariateNormal.png Graphic file (type png)
+<use figures/MultivariateNormal.png>
+Package pdftex.def Info: figures/MultivariateNormal.png  used on input line 182
+2.
+(pdftex.def)             Requested size: 409.71692pt x 309.97789pt.
+[42] [43 <./figures/MultivariateNormal.png>]
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 1886--1887
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1886--1887
+
+ []
+
+
+Overfull \hbox (6.14073pt too wide) in paragraph at lines 1957--1957
+[] 
+ []
+
+
+Overfull \hbox (11.74712pt too wide) in paragraph at lines 1957--1957
+[][] [] 
+ []
+
+
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 1957--1958
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1957--1958
+
+ []
+
+[44]
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 1967--1968
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1967--1968
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1969--1971
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1996--1996
+
+ []
+
+
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 1996--1997
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1996--1997
+
+ []
+
+[45]
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 2002--2003
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2002--2003
+
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.2}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2027 }
+        
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.2}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2027 }
+        
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.2}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2027 }
+        
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.2}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2027 }
+        
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 2027--2028
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2027--2028
+
+ []
+
+<figures/conditional_expectation.png, id=562, 668.4975pt x 486.81876pt>
+File: figures/conditional_expectation.png Graphic file (type png)
+<use figures/conditional_expectation.png>
+Package pdftex.def Info: figures/conditional_expectation.png  used on input lin
+e 2038.
+(pdftex.def)             Requested size: 409.71692pt x 298.37779pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.2}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2061 ... = E_{x}[Var[y | x]]+Var_{x}[E[y | x]]$}
+                                                  
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.2}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2061 ... = E_{x}[Var[y | x]]+Var_{x}[E[y | x]]$}
+                                                  
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.2}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2061 ... = E_{x}[Var[y | x]]+Var_{x}[E[y | x]]$}
+                                                  
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.2}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2061 ... = E_{x}[Var[y | x]]+Var_{x}[E[y | x]]$}
+                                                  
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.2}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2061 ... = E_{x}[Var[y | x]]+Var_{x}[E[y | x]]$}
+                                                  
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.2}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2061 ... = E_{x}[Var[y | x]]+Var_{x}[E[y | x]]$}
+                                                  
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.2}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2061 ... = E_{x}[Var[y | x]]+Var_{x}[E[y | x]]$}
+                                                  
+pdfTeX warning (ext4): destination with the same identifier (name{equation.3.2}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2061 ... = E_{x}[Var[y | x]]+Var_{x}[E[y | x]]$}
+                                                  
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 2061--2062
+[] 
+ []
+
+[46]
+Overfull \hbox (1.78148pt too wide) in paragraph at lines 2063--2064
+[]\T1/cmr/m/n/12 When we con-di-tion on $\OML/cmm/m/it/12 x$\T1/cmr/m/n/12 , th
+e vari-ance of $\OML/cmm/m/it/12 y$ \T1/cmr/m/n/12 re-duces on av-er-age. $\OML
+/cmm/m/it/12 Var\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 y\OT1/cmr/m/n/12 ] \OMS/cmsy/
+m/n/12 ^^U \OML/cmm/m/it/12 E[]\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 Var\OT1/cmr/m/
+n/12 [\OML/cmm/m/it/12 y\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 ]]$
+ 
+ []
+
+
+Overfull \hbox (19.7975pt too wide) in paragraph at lines 2150--2150
+[] 
+ []
+
+
+Overfull \hbox (26.48766pt too wide) detected at line 2150
+[][]
+ []
+
+
+Overfull \hbox (36.50156pt too wide) detected at line 2150
+\OML/cmm/m/it/12 V\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 y\OMS/cmsy/m/n/12 j\OML/cmm
+/m/it/12 x \OT1/cmr/m/n/12 = 1] = (1 \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 5\OML
+/cmm/m/it/12 =\OT1/cmr/m/n/12 3)[] \OMS/cmsy/m/n/12 ^^B \OT1/cmr/m/n/12 1\OML/c
+mm/m/it/12 =\OT1/cmr/m/n/12 3 + (2 \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 5\OML/c
+mm/m/it/12 =\OT1/cmr/m/n/12 3)[] \OMS/cmsy/m/n/12 ^^B \OT1/cmr/m/n/12 2\OML/cmm
+/m/it/12 =\OT1/cmr/m/n/12 3 = 2\OML/cmm/m/it/12 =\OT1/cmr/m/n/12 9
+ []
+
+
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 2150--2151
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2150--2151
+
+ []
+
+[47 <./figures/conditional_expectation.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 2152--2153
+
+ []
+
+
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 2164--2174
+[]
+ []
+
+
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 2164--2174
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2164--2174
+
+ []
+
+[48] [49] [50] [51]
+<figures/politicallyconnected1.png, id=593, 1284.8pt x 934.49126pt>
+File: figures/politicallyconnected1.png Graphic file (type png)
+<use figures/politicallyconnected1.png>
+Package pdftex.def Info: figures/politicallyconnected1.png  used on input line 
+2259.
+(pdftex.def)             Requested size: 409.71692pt x 298.0024pt.
+ [52
+
+ <./figures/politicallyconnected1.png (PNG copy)>]
+<figures/politicallyconnected2.png, id=600, 1284.8pt x 934.49126pt>
+File: figures/politicallyconnected2.png Graphic file (type png)
+<use figures/politicallyconnected2.png>
+Package pdftex.def Info: figures/politicallyconnected2.png  used on input line 
+2289.
+(pdftex.def)             Requested size: 409.71692pt x 298.0024pt.
+
+[53
+
+ <./figures/politicallyconnected2.png (PNG copy)>]
+<figures/politicallyconnected3.png, id=606, 1284.8pt x 934.49126pt>
+File: figures/politicallyconnected3.png Graphic file (type png)
+<use figures/politicallyconnected3.png>
+Package pdftex.def Info: figures/politicallyconnected3.png  used on input line 
+2306.
+(pdftex.def)             Requested size: 409.71692pt x 298.0024pt.
+ [54 <./figures/politicallyconnected3.png (PNG copy)>]
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 2334--2336
+[]
+ []
+
+<figures/Anscombe_data1.png, id=613, 1284.8pt x 934.49126pt>
+File: figures/Anscombe_data1.png Graphic file (type png)
+<use figures/Anscombe_data1.png>
+Package pdftex.def Info: figures/Anscombe_data1.png  used on input line 2354.
+(pdftex.def)             Requested size: 223.07211pt x 162.24083pt.
+<figures/Anscombe_data2.png, id=614, 1284.8pt x 934.49126pt>
+File: figures/Anscombe_data2.png Graphic file (type png)
+<use figures/Anscombe_data2.png>
+Package pdftex.def Info: figures/Anscombe_data2.png  used on input line 2359.
+(pdftex.def)             Requested size: 223.07211pt x 162.24083pt.
+<figures/Anscombe_data3.png, id=615, 1284.8pt x 934.49126pt>
+File: figures/Anscombe_data3.png Graphic file (type png)
+<use figures/Anscombe_data3.png>
+Package pdftex.def Info: figures/Anscombe_data3.png  used on input line 2364.
+(pdftex.def)             Requested size: 223.07211pt x 162.24083pt.
+<figures/Anscombe_data4.png, id=616, 1284.8pt x 934.49126pt>
+File: figures/Anscombe_data4.png Graphic file (type png)
+<use figures/Anscombe_data4.png>
+Package pdftex.def Info: figures/Anscombe_data4.png  used on input line 2369.
+(pdftex.def)             Requested size: 223.07211pt x 162.24083pt.
+[55 <./figures/Anscombe_data1.png (PNG copy)> <./figures/Anscombe_data2.png (PN
+G copy)> <./figures/Anscombe_data3.png (PNG copy)> <./figures/Anscombe_data4.pn
+g (PNG copy)>]
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 2385--2387
+[]
+ []
+
+<figures/Trunc1.png, id=625, 1284.8pt x 934.49126pt>
+File: figures/Trunc1.png Graphic file (type png)
+<use figures/Trunc1.png>
+Package pdftex.def Info: figures/Trunc1.png  used on input line 2400.
+(pdftex.def)             Requested size: 409.71692pt x 298.0024pt.
+[56 <./figures/Trunc1.png (PNG copy)>]
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 2426--2428
+[]
+ []
+
+<figures/meanindependence_cut.png, id=633, 919.93687pt x 545.78906pt>
+File: figures/meanindependence_cut.png Graphic file (type png)
+<use figures/meanindependence_cut.png>
+Package pdftex.def Info: figures/meanindependence_cut.png  used on input line 2
+434.
+(pdftex.def)             Requested size: 409.71692pt x 243.08772pt.
+[57 <./figures/meanindependence_cut.png>]
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 2454--2455
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2454--2455
+
+ []
+
+<figures/homo.png, id=645, 572.1375pt x 402.75468pt>
+File: figures/homo.png Graphic file (type png)
+<use figures/homo.png>
+Package pdftex.def Info: figures/homo.png  used on input line 2461.
+(pdftex.def)             Requested size: 223.07211pt x 157.03067pt.
+<figures/hetero.png, id=646, 549.55313pt x 428.35031pt>
+File: figures/hetero.png Graphic file (type png)
+<use figures/hetero.png>
+Package pdftex.def Info: figures/hetero.png  used on input line 2462.
+(pdftex.def)             Requested size: 223.07211pt x 173.87308pt.
+
+Underfull \hbox (badness 4193) in paragraph at lines 2465--2465
+[]\T1/cmr/m/n/12 Figure 4: |The sim-ple re-gres-sion model un-der homo- and het
+-eroskedas-tic-ity.
+ []
+
+[58 <./figures/homo.png> <./figures/hetero.png>]
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 2476--2477
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2476--2477
+
+ []
+
+<figures/identifiability.png, id=658, 1284.8pt x 934.49126pt>
+File: figures/identifiability.png Graphic file (type png)
+<use figures/identifiability.png>
+Package pdftex.def Info: figures/identifiability.png  used on input line 2490.
+(pdftex.def)             Requested size: 409.71692pt x 298.0024pt.
+[59 <./figures/identifiability.png (PNG copy)>]
+<figures/OLS1.png, id=666, 1284.8pt x 934.49126pt>
+File: figures/OLS1.png Graphic file (type png)
+<use figures/OLS1.png>
+Package pdftex.def Info: figures/OLS1.png  used on input line 2516.
+(pdftex.def)             Requested size: 409.71692pt x 298.0024pt.
+ [60 <./figures/OLS1.png (PNG copy)>]
+<figures/OLS2.png, id=672, 1284.8pt x 934.49126pt>
+File: figures/OLS2.png Graphic file (type png)
+<use figures/OLS2.png>
+Package pdftex.def Info: figures/OLS2.png  used on input line 2523.
+(pdftex.def)             Requested size: 409.71692pt x 298.0024pt.
+<figures/OLS3.png, id=673, 1284.8pt x 934.49126pt>
+File: figures/OLS3.png Graphic file (type png)
+<use figures/OLS3.png>
+Package pdftex.def Info: figures/OLS3.png  used on input line 2529.
+(pdftex.def)             Requested size: 409.71692pt x 298.0024pt.
+<figures/OLS4.png, id=674, 1284.8pt x 934.49126pt>
+File: figures/OLS4.png Graphic file (type png)
+<use figures/OLS4.png>
+Package pdftex.def Info: figures/OLS4.png  used on input line 2535.
+(pdftex.def)             Requested size: 409.71692pt x 298.0024pt.
+ [61
+
+ <./figures/OLS2.png (PNG copy)> <./figures/OLS3.png (PNG copy)>]
+<figures/OLS5.png, id=680, 1284.8pt x 934.49126pt>
+File: figures/OLS5.png Graphic file (type png)
+<use figures/OLS5.png>
+Package pdftex.def Info: figures/OLS5.png  used on input line 2542.
+(pdftex.def)             Requested size: 409.71692pt x 298.0024pt.
+
+[62 <./figures/OLS4.png (PNG copy)> <./figures/OLS5.png (PNG copy)>]
+<figures/Legendre.jpg, id=687, 321.2pt x 401.5pt>
+File: figures/Legendre.jpg Graphic file (type jpg)
+<use figures/Legendre.jpg>
+Package pdftex.def Info: figures/Legendre.jpg  used on input line 2560.
+(pdftex.def)             Requested size: 122.4428pt x 153.04944pt.
+<figures/Gauss_klein.jpg, id=690, 240.9pt x 301.125pt>
+File: figures/Gauss_klein.jpg Graphic file (type jpg)
+<use figures/Gauss_klein.jpg>
+Package pdftex.def Info: figures/Gauss_klein.jpg  used on input line 2579.
+(pdftex.def)             Requested size: 122.4428pt x 153.05249pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2589--2590
+
+ []
+
+[63
+
+ <./figures/Legendre.jpg> <./figures/Gauss_klein.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 2626--2627
+
+ []
+
+<figures/3d_cloud1.png, id=701, 1284.8pt x 934.49126pt>
+File: figures/3d_cloud1.png Graphic file (type png)
+<use figures/3d_cloud1.png>
+Package pdftex.def Info: figures/3d_cloud1.png  used on input line 2633.
+(pdftex.def)             Requested size: 364.19667pt x 264.8926pt.
+<figures/3d_cloud2.png, id=702, 1284.8pt x 934.49126pt>
+File: figures/3d_cloud2.png Graphic file (type png)
+<use figures/3d_cloud2.png>
+Package pdftex.def Info: figures/3d_cloud2.png  used on input line 2639.
+(pdftex.def)             Requested size: 364.19667pt x 264.8926pt.
+[64] [65 <./figures/3d_cloud1.png (PNG copy)> <./figures/3d_cloud2.png (PNG cop
+y)>]
+Underfull \hbox (badness 10000) in paragraph at lines 2661--2662
+
+ []
+
+[66]
+<figures/SmallSample_empty.jpg, id=720, 527.72156pt x 305.64188pt>
+File: figures/SmallSample_empty.jpg Graphic file (type jpg)
+<use figures/SmallSample_empty.jpg>
+Package pdftex.def Info: figures/SmallSample_empty.jpg  used on input line 2679
+.
+(pdftex.def)             Requested size: 409.71692pt x 237.29439pt.
+
+Overfull \hbox (218.0601pt too wide) in paragraph at lines 2680--2680
+[]\T1/cmr/m/n/12 Figure 10: |What is a small sam-ple?  \T1/cmr/m/it/12 Source:
+ []
+
+
+Overfull \hbox (117.22131pt too wide) in paragraph at lines 2680--2680
+\T1/cmr/m/n/12 Familien-Duell  Grundy
+ []
+
+<figures/SmallSample.jpg, id=721, 527.72156pt x 305.64188pt>
+File: figures/SmallSample.jpg Graphic file (type jpg)
+<use figures/SmallSample.jpg>
+Package pdftex.def Info: figures/SmallSample.jpg  used on input line 2688.
+(pdftex.def)             Requested size: 409.71692pt x 237.29439pt.
+[67
+
+ <./figures/SmallSample_empty.jpg> <./figures/SmallSample.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 2697--2698
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2700--2701
+
+ []
+
+[68] [69] [70]
+<figures/distribution_beta1_3.png, id=753, 1284.8pt x 934.49126pt>
+File: figures/distribution_beta1_3.png Graphic file (type png)
+<use figures/distribution_beta1_3.png>
+Package pdftex.def Info: figures/distribution_beta1_3.png  used on input line 2
+813.
+(pdftex.def)             Requested size: 223.07211pt x 162.24083pt.
+<figures/distribution_beta1_5.png, id=754, 1284.8pt x 934.49126pt>
+File: figures/distribution_beta1_5.png Graphic file (type png)
+<use figures/distribution_beta1_5.png>
+Package pdftex.def Info: figures/distribution_beta1_5.png  used on input line 2
+819.
+(pdftex.def)             Requested size: 223.07211pt x 162.24083pt.
+<figures/distribution_beta1_10.png, id=755, 1284.8pt x 934.49126pt>
+File: figures/distribution_beta1_10.png Graphic file (type png)
+<use figures/distribution_beta1_10.png>
+Package pdftex.def Info: figures/distribution_beta1_10.png  used on input line 
+2826.
+(pdftex.def)             Requested size: 223.07211pt x 162.24083pt.
+<figures/distribution_beta1_100.png, id=756, 1284.8pt x 934.49126pt>
+File: figures/distribution_beta1_100.png Graphic file (type png)
+<use figures/distribution_beta1_100.png>
+Package pdftex.def Info: figures/distribution_beta1_100.png  used on input line
+ 2832.
+(pdftex.def)             Requested size: 223.07211pt x 162.24083pt.
+ [71
+
+ <./figures/distribution_beta1_3.png (PNG copy)> <./figures/distribution_beta1_
+5.png (PNG copy)> <./figures/distribution_beta1_10.png (PNG copy)> <./figures/d
+istribution_beta1_100.png (PNG copy)>]
+<figures/sampling_error_beta1_3.png, id=763, 1284.8pt x 934.49126pt>
+File: figures/sampling_error_beta1_3.png Graphic file (type png)
+<use figures/sampling_error_beta1_3.png>
+Package pdftex.def Info: figures/sampling_error_beta1_3.png  used on input line
+ 2858.
+(pdftex.def)             Requested size: 223.07211pt x 162.24083pt.
+<figures/sampling_error_beta1_5.png, id=764, 1284.8pt x 934.49126pt>
+File: figures/sampling_error_beta1_5.png Graphic file (type png)
+<use figures/sampling_error_beta1_5.png>
+Package pdftex.def Info: figures/sampling_error_beta1_5.png  used on input line
+ 2864.
+(pdftex.def)             Requested size: 223.07211pt x 162.24083pt.
+<figures/sampling_error_beta1_10.png, id=765, 1284.8pt x 934.49126pt>
+File: figures/sampling_error_beta1_10.png Graphic file (type png)
+<use figures/sampling_error_beta1_10.png>
+Package pdftex.def Info: figures/sampling_error_beta1_10.png  used on input lin
+e 2871.
+(pdftex.def)             Requested size: 223.07211pt x 162.24083pt.
+<figures/sampling_error_beta1_100.png, id=766, 1284.8pt x 934.49126pt>
+File: figures/sampling_error_beta1_100.png Graphic file (type png)
+<use figures/sampling_error_beta1_100.png>
+Package pdftex.def Info: figures/sampling_error_beta1_100.png  used on input li
+ne 2877.
+(pdftex.def)             Requested size: 223.07211pt x 162.24083pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2895--2896
+
+ []
+
+[72 <./figures/sampling_error_beta1_3.png (PNG copy)> <./figures/sampling_error
+_beta1_5.png (PNG copy)> <./figures/sampling_error_beta1_10.png (PNG copy)> <./
+figures/sampling_error_beta1_100.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 2927--2934
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2935--2936
+
+ []
+
+[73] [74]
+Underfull \hbox (badness 10000) in paragraph at lines 3001--3003
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3027--3029
+
+ []
+
+[75]
+Underfull \hbox (badness 10000) in paragraph at lines 3043--3045
+
+ []
+
+
+Overfull \hbox (1.79587pt too wide) in paragraph at lines 3080--3081
+[]\T1/cmr/m/n/12 follows ap-prox-i-mately the stan-dard nor-mal dis-tri-bu-tion
+. The stan-dard er-ror is $[]\OT1/cmr/m/n/12 ([]) =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3080--3081
+
+ []
+
+[76]
+Underfull \hbox (badness 10000) in paragraph at lines 3082--3083
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3094--3096
+
+ []
+
+[77] [78]
+<figures/politicallyconnected4.png, id=812, 1284.8pt x 934.49126pt>
+File: figures/politicallyconnected4.png Graphic file (type png)
+<use figures/politicallyconnected4.png>
+Package pdftex.def Info: figures/politicallyconnected4.png  used on input line 
+3161.
+(pdftex.def)             Requested size: 409.71692pt x 298.0024pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3168--3169
+
+ []
+
+[79
+
+ <./figures/politicallyconnected4.png (PNG copy)>] [80] [81
+
+]
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 3256--3258
+[]
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.2}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3264 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.2}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3264 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.2}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3264 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.2}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3264 \begin{eqnarray}
+                        [82]
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3275 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3275 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3275 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3275 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3282 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3282 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3282 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3282 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3291 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3291 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3291 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3291 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3316 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3316 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3316 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3316 \begin{eqnarray}
+                        [83]
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 3328--3329
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3328--3329
+
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3388 \end{eqnarray}}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3388 \end{eqnarray}}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3388 \end{eqnarray}}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3388 \end{eqnarray}}
+                      
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 3388--3389
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3388--3389
+
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3412 }
+        
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3412 }
+        
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3412 }
+        
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3412 }
+        
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 3412--3413
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3412--3413
+
+ []
+
+[84]
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3419 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3419 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3419 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3419 \begin{eqnarray}
+                       
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 3434--3435
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3434--3435
+
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3456 }
+        
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3456 }
+        
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3456 }
+        
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3456 }
+        
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 3456--3457
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3456--3457
+
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3549 }
+        
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3549 }
+        
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3549 }
+        
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3549 }
+        
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3549 }
+        
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3549 }
+        
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3549 }
+        
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3549 }
+        
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3549 }
+        
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3549 }
+        
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3549 }
+        
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3549 }
+        
+<figures/projection.png, id=856, 378.66469pt x 486.31688pt>
+File: figures/projection.png Graphic file (type png)
+<use figures/projection.png>
+Package pdftex.def Info: figures/projection.png  used on input line 3549.
+(pdftex.def)             Requested size: 204.85846pt x 263.09695pt.
+
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 3549--3550
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3549--3550
+
+ []
+
+[85]
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3556 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3556 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3556 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3556 \begin{eqnarray}
+                        [86 <./figures/projection.png (PNG copy)>]
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3571 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3571 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3571 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3571 \begin{eqnarray}
+                       
+Overfull \vbox (1.76378pt too high) has occurred while \output is active []
+
+
+[87
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.5}
+) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.3634 \end{eqnarray}
+                     
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.5}
+) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.3634 \end{eqnarray}
+                     ]
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.5}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3636 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.5}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3636 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.5}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3636 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.5}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3636 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.5}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3640 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.5}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3640 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.5}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3640 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.5}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3640 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.5}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3646 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.5}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3646 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.5}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3646 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.5}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3646 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.5}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3650 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.5}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3650 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.5}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3650 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.5}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3650 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.5}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3655 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.5}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3655 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.5}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3655 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.5}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3655 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.5}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3659 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.5}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3659 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.5}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3659 \begin{eqnarray}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.5}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3659 \begin{eqnarray}
+                        [88
+pdfTeX warning (ext4): destination with the same identifier (name{equation.5.5}
+) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.3673 \clearpage
+                 ] [89]
+Underfull \hbox (badness 10000) in paragraph at lines 3691--3692
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3696--3697
+
+ []
+
+[90
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 3732--3733
+
+ []
+
+<figures/ll_500.png, id=895, 1284.8pt x 770.88pt>
+File: figures/ll_500.png Graphic file (type png)
+<use figures/ll_500.png>
+Package pdftex.def Info: figures/ll_500.png  used on input line 3748.
+(pdftex.def)             Requested size: 409.71692pt x 245.82796pt.
+
+Overfull \hbox (9.0517pt too wide) in paragraph at lines 3755--3756
+[]\T1/cmr/m/n/12 Maximizing $\OML/cmm/m/it/12 L[]\OT1/cmr/m/n/12 (\OML/cmm/b/it
+/12 ^^R\OT1/cmr/m/n/12 )$ \T1/cmr/m/n/12 is equiv-a-lent to max-i-miz-ing the \
+T1/cmr/bx/n/12 log-likelihood func-tion $\OMS/cmsy/m/n/12 L[]\OT1/cmr/m/n/12 (\
+OML/cmm/b/it/12 ^^R\OT1/cmr/bx/n/12 ) \OT1/cmr/m/n/12 =
+ []
+
+[91 <./figures/ll_500.png (PNG copy)>]
+File: figures/ll_500.png Graphic file (type png)
+<use figures/ll_500.png>
+Package pdftex.def Info: figures/ll_500.png  used on input line 3796.
+(pdftex.def)             Requested size: 409.71692pt x 245.82796pt.
+ [92]
+File: figures/ll_500.png Graphic file (type png)
+<use figures/ll_500.png>
+Package pdftex.def Info: figures/ll_500.png  used on input line 3805.
+(pdftex.def)             Requested size: 409.71692pt x 245.82796pt.
+
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 3817--3819
+[]
+ []
+
+[93]
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 3851--3852
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3851--3852
+
+ []
+
+[94]
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 3883--3884
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3883--3884
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3898--3899
+
+ []
+
+[95] [96]
+<figures/ll_3.png, id=938, 1284.8pt x 770.88pt>
+File: figures/ll_3.png Graphic file (type png)
+<use figures/ll_3.png>
+Package pdftex.def Info: figures/ll_3.png  used on input line 3954.
+(pdftex.def)             Requested size: 223.07211pt x 133.83562pt.
+<figures/ll_10.png, id=939, 1284.8pt x 770.88pt>
+File: figures/ll_10.png Graphic file (type png)
+<use figures/ll_10.png>
+Package pdftex.def Info: figures/ll_10.png  used on input line 3960.
+(pdftex.def)             Requested size: 223.07211pt x 133.83562pt.
+<figures/ll_25.png, id=940, 1284.8pt x 770.88pt>
+File: figures/ll_25.png Graphic file (type png)
+<use figures/ll_25.png>
+Package pdftex.def Info: figures/ll_25.png  used on input line 3967.
+(pdftex.def)             Requested size: 223.07211pt x 133.83562pt.
+<figures/ll_100.png, id=941, 1284.8pt x 770.88pt>
+File: figures/ll_100.png Graphic file (type png)
+<use figures/ll_100.png>
+Package pdftex.def Info: figures/ll_100.png  used on input line 3973.
+(pdftex.def)             Requested size: 223.07211pt x 133.83562pt.
+<figures/l.png, id=942, 1284.8pt x 770.88pt>
+File: figures/l.png Graphic file (type png)
+<use figures/l.png>
+Package pdftex.def Info: figures/l.png  used on input line 3989.
+(pdftex.def)             Requested size: 223.07211pt x 133.83562pt.
+<figures/ll.png, id=943, 1284.8pt x 770.88pt>
+File: figures/ll.png Graphic file (type png)
+<use figures/ll.png>
+Package pdftex.def Info: figures/ll.png  used on input line 3990.
+(pdftex.def)             Requested size: 223.07211pt x 133.83562pt.
+ [97 <./figures/ll_3.png (PNG copy)> <./figures/ll_10.png (PNG copy)> <./figure
+s/ll_25.png (PNG copy)> <./figures/ll_100.png (PNG copy)> <./figures/l.png (PNG
+ copy)> <./figures/ll.png (PNG copy)>]
+<figures/distribution_p_100.png, id=952, 1284.8pt x 770.88pt>
+File: figures/distribution_p_100.png Graphic file (type png)
+<use figures/distribution_p_100.png>
+Package pdftex.def Info: figures/distribution_p_100.png  used on input line 400
+8.
+(pdftex.def)             Requested size: 409.71692pt x 245.82796pt.
+
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 4026--4065
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4026--4065
+
+ []
+
+[98 <./figures/distribution_p_100.png (PNG copy)>]
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 4083--4084
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4083--4084
+
+ []
+
+[99]
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 4099--4100
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4099--4100
+
+ []
+
+[100]
+Underfull \hbox (badness 10000) in paragraph at lines 4127--4128
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4129--4131
+
+ []
+
+[101
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 4161--4162
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4170--4171
+
+ []
+
+<figures/MeanValueTheorem.png, id=976, 925.20656pt x 506.6428pt>
+File: figures/MeanValueTheorem.png Graphic file (type png)
+<use figures/MeanValueTheorem.png>
+Package pdftex.def Info: figures/MeanValueTheorem.png  used on input line 4178.
+
+(pdftex.def)             Requested size: 409.71692pt x 224.36143pt.
+
+Overfull \hbox (38.8248pt too wide) in paragraph at lines 4175--4180
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4175--4180
+
+ []
+
+[102 <./figures/MeanValueTheorem.png>]
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 4237--4238
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4237--4238
+
+ []
+
+[103]
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 4245--4246
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4245--4246
+
+ []
+
+
+Overfull \hbox (21.19998pt too wide) in paragraph at lines 4251--4252
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4251--4252
+
+ []
+
+[104]
+Underfull \hbox (badness 10000) in paragraph at lines 4264--4265
+
+ []
+
+[105]
+<figures/efficiency.png, id=1004, 668.4975pt x 486.81876pt>
+File: figures/efficiency.png Graphic file (type png)
+<use figures/efficiency.png>
+Package pdftex.def Info: figures/efficiency.png  used on input line 4323.
+(pdftex.def)             Requested size: 409.71692pt x 298.37779pt.
+ [106]
+<figures/gamma.png, id=1009, 668.4975pt x 486.81876pt>
+File: figures/gamma.png Graphic file (type png)
+<use figures/gamma.png>
+Package pdftex.def Info: figures/gamma.png  used on input line 4334.
+(pdftex.def)             Requested size: 409.71692pt x 298.37779pt.
+ [107 <./figures/efficiency.png (PNG copy)>] [108 <./figures/gamma.png (PNG cop
+y)>] [109
+
+] (tricks.bbl (tricks.brf)
+\tf@brf=\write7
+\openout7 = `tricks.brf'.
+
+) [110] (tricks.aux)
+ ***********
+LaTeX2e <2023-11-01>
+L3 programming layer <2023-12-11>
+ ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `tricks.out' has not changed.
+(rerunfilecheck)             Checksum: FCAE9023C332D1D5F4FCE081FCCBB1F6;3688.
+Package rerunfilecheck Info: File `tricks.brf' has not changed.
+(rerunfilecheck)             Checksum: E9DA034E93340118844DE9B69BCBDB6D;154.
+ ) 
+Here is how much of TeX's memory you used:
+ 26960 strings out of 474495
+ 508814 string characters out of 5736820
+ 1954460 words of memory out of 5000000
+ 48361 multiletter control sequences out of 15000+600000
+ 598287 words of font info for 152 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 81i,21n,87p,1335b,937s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Davud Rostam-Afschar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen
+/ec/dpi600\eccc1095.pk> <C:\Users\Davud Rostam-Afschar\AppData\Local\MiKTeX\fon
+ts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\Davud Rostam-Afschar\App
+Data\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx0800.pk> <C:\Users\Dav
+ud Rostam-Afschar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0
+700.pk> <C:\Users\Davud Rostam-Afschar\AppData\Local\MiKTeX\fonts/pk/ljfour/jkn
+appen/ec/dpi600\ecti1200.pk> <C:\Users\Davud Rostam-Afschar\AppData\Local\MiKTe
+X\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\Davud Rostam-Afscha
+r\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\User
+s\Davud Rostam-Afschar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
+ecbx1440.pk> <C:\Users\Davud Rostam-Afschar\AppData\Local\MiKTeX\fonts/pk/ljfou
+r/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Davud Rostam-Afschar\AppData\Local\
+MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\Davud Rostam-A
+fschar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:
+\Users\Davud Rostam-Afschar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dp
+i600\ecrm1000.pk> <C:\Users\Davud Rostam-Afschar\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\tcrm0700.pk> <C:\Users\Davud Rostam-Afschar\AppData\L
+ocal\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\Davud Ros
+tam-Afschar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk
+> <C:\Users\Davud Rostam-Afschar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/
+ec/dpi600\tcrm0800.pk> <C:\Users\Davud Rostam-Afschar\AppData\Local\MiKTeX\font
+s/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\Davud Rostam-Afschar\AppD
+ata\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm2074.pk> <C:\Users\Davu
+d Rostam-Afschar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm24
+88.pk><C:/Users/Davud Rostam-Afschar/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/cmextra/cmbsy8.pfb><C:/Users/Davud Rostam-Afschar/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Davud Rost
+am-Afschar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.p
+fb><C:/Users/Davud Rostam-Afschar/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmex10.pfb><C:/Users/Davud Rostam-Afschar/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Users/Davud Rostam-A
+fschar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
+<C:/Users/Davud Rostam-Afschar/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmmi6.pfb><C:/Users/Davud Rostam-Afschar/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Davud Rostam-Afschar/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/User
+s/Davud Rostam-Afschar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cmextra/cmmib6.pfb><C:/Users/Davud Rostam-Afschar/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb><C:/Users/Davud Rostam-Afscha
+r/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Us
+ers/Davud Rostam-Afschar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmr12.pfb><C:/Users/Davud Rostam-Afschar/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Davud Rostam-Afschar/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Davud Ro
+stam-Afschar/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb><C:/Users/Davud Rostam-Afschar/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmsy6.pfb><C:/Users/Davud Rostam-Afschar/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Davud Rostam-Afsc
+har/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pf
+b><C:/Users/Davud Rostam-Afschar/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/symbols/msbm10.pfb>
+Output written on tricks.pdf (110 pages, 6352904 bytes).
+PDF statistics:
+ 1819 PDF objects out of 2073 (max. 8388607)
+ 358 named destinations out of 1000 (max. 500000)
+ 785 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -10,7 +10,7 @@
 
 - [The Least Squares Estimator](https://github.com/listoflistoflist/econometricks/blob/main/trick%204/trick04.pdf)
 
-- [Simplifying Linear Regressions using Frisch-Waugh-Lowell](https://github.com/listoflistoflist/econometricks/blob/main/trick%205/trick05.pdf)
+- [Simplifying Linear Regressions using Frisch-Waugh-Lovell](https://github.com/listoflistoflist/econometricks/blob/main/trick%205/trick05.pdf)
 
 - [Maximum Likelihood Estimation](https://github.com/listoflistoflist/econometricks/blob/main/trick%206/trick06.pdf)
 
@@ -25,6 +25,10 @@
 - [Monte carlo simulation for likelihood and log-likelihood for Bernoulli trials](https://github.com/listoflistoflist/econometricks/blob/main/trick%206/code/mc_bernoulli_likelihood.do)
 
 - [Monte carlo simulation for efficient GMM estimation](https://github.com/listoflistoflist/econometricks/blob/main/trick%207/code/gmm.do)
+
+**Complete set of short guides:**
+
+- [Complete set of short guides](https://github.com/listoflistoflist/econometricks/blob/main/tricks/tricks.pdf) as single document.
 
 ## Students
 Please find typos or errors and correct them via a pull request.
